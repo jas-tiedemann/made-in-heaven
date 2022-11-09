@@ -1,0 +1,32 @@
+.header__main {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    padding: 2em;
+}
+
+.header__image {
+    margin: auto;
+    padding: 0.5em;
+}
+
+.header__nav {
+    color: black;
+    margin: auto;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__list__item {
+    width: fit-content;
+    list-style: none;
+    padding: 0 1em;
+}
+
+.header__list__item__link {
+    color: black;
+    text-decoration: none;
+}
