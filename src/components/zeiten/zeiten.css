@@ -1,0 +1,64 @@
+.zeiten {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: black;
+}
+
+.zeiten__willkommen {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 8em;
+}
+
+.zeiten__heading {
+    font-size: 4em;
+    margin: auto;
+    padding: 1em;
+    width: 9em;
+}
+
+.zeiten__paragraph {
+    margin: auto;
+}
+
+.zeiten__info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 30em;
+}
+
+.zeiten__heading__wrapper {
+    background: url("../../assets/images/bg-image-leaves.jpg");
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zeiten__list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.zeiten__list__heading {
+    margin: 1em auto;
+}
+
+.zeiten__time__wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.zeiten__list__time {
+    width: fit-content;
+    margin: 1em auto;
+}
