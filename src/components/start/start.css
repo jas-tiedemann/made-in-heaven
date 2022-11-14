@@ -2,5 +2,6 @@
     display: flex;
     justify-content: center;
     background: url("../../assets/images/bg-image-leaves.jpg");
+    background-size: cover;
     min-height: 35em;
 }

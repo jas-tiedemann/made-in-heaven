@@ -1,6 +1,6 @@
 .zeiten {
     display: flex;
-    color: white;
+    color: #F0F0F0;
     flex-direction: column;
     background-color: black;
 }
@@ -42,7 +42,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    background-color: white;
+    background-color: #F0F0F0;
     color: black;
     align-items: center;
     justify-content: center;
