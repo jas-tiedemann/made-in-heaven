@@ -32,6 +32,7 @@
 
 .zeiten__heading__wrapper {
     background: url("../../assets/images/bg-image-leaves.jpg");
+    background-size: cover;
     width: 50%;
     display: flex;
     justify-content: center;

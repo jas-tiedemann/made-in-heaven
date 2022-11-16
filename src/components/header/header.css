@@ -1,4 +1,4 @@
-.header__main {
+.header {
     display: flex;
     background-color: #F0F0F0;
     padding: 0.75em;
@@ -9,11 +9,10 @@
 }
 
 .header__image {
-    width: 7em;
+    width: 6em;
 }
 
 .header__nav {
-    color: black;
     margin: auto;
 }
 
@@ -31,4 +30,13 @@
 .header__list__item__link {
     color: black;
     text-decoration: none;
+    
+}
+
+.header__list__item__link:hover {
+    color: #820606;
+}
+
+.link-location-wrapper {
+    padding-left: 9em;
 }
