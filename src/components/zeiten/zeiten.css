@@ -63,3 +63,8 @@
     width: fit-content;
     margin: 1em auto;
 }
+
+.zeiten__list__paragraph {
+    width: 25em;
+    text-align: center;
+}

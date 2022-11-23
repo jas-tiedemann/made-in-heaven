@@ -18,7 +18,7 @@ const Zeiten = () => {
                     <p className="zeiten__list__time">Mo. - Fr.: 12:00 - 17:00 Uhr</p>
                     <p className="zeiten__list__time">Sa.: 12:00 - 14:00 Uhr</p>
                 </div>
-                <p>Nach Vereinbarungen auch Termine vor der regulären Öffnungszeit möglich.</p>
+                <p className="zeiten__list__paragraph">Nach Vereinbarung auch Termine vor der regulären Öffnungszeit möglich.</p>
             </div>
         </div>
     </div>

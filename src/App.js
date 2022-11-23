@@ -3,6 +3,7 @@ import Header from "./components/header/header";
 import Start from "./components/start/start";
 import Zeiten from "./components/zeiten/zeiten";
 import ScrollButton from "./components/scrollButton/scrollButton";
+import Tattoo from "./components/tattoo/tattoo";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Start />
       <Zeiten />
       <ScrollButton />
+      <Tattoo />
     </div>
   );
 }
