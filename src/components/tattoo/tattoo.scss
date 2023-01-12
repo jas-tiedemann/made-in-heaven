@@ -1,20 +1,23 @@
+@import "../../App.scss";
+
 .tattoo {
     background: url("../../assets/images/bg-image-leaves-2.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: #F0F0F0;
+    color: $light;
 }
 
-.tattoo__main__row {
-    background-color: #F0F0F0;
-    color: black;
-    margin: 2em;
+.tattoo__row {
+    background-color: $light;
+    color: $dark;
+    margin: 0 2em;
+    margin-top: 2em;
     display: flex;
 }
 
-.tattoo__main__text__wrapper {
+.tattoo__text__wrapper {
     width: 45%;
     margin: 5em;
 }
@@ -25,16 +28,12 @@
     text-align: center;
 }
 
-.tattoo__main__text__paragraph__wrapper {
-    width: 100%;
-}
-
-.tattoo__main__text__paragraph {
+.tattoo__text__paragraph {
     margin: 0;
     line-height: 1.6;
 }
 
-.tattoo__main__image__wrapper {
+.tattoo__image__wrapper {
     width: 55%;
     display: flex;
 }
@@ -47,6 +46,6 @@
     justify-content: left;
 }
 
-.tattoo__main__image {
+.tattoo__image {
     height: 35em;
 }

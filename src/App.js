@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from "./components/header/header";
 import Start from "./components/start/start";
 import Zeiten from "./components/zeiten/zeiten";

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./scrollButton.css";
+import "./scrollButton.scss";
 import { AiOutlineArrowUp } from "react-icons/ai";
 
 const ScrollButton = () => {

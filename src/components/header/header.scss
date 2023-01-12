@@ -1,6 +1,8 @@
+@import "../../App.scss";
+
 .header {
     display: flex;
-    background-color: #F0F0F0;
+    background-color: $light;
     padding: 0.75em;
 }
 
@@ -21,20 +23,19 @@
     flex-direction: row;
 }
 
-.header__list__item {
+.header__item {
     width: fit-content;
     list-style: none;
     padding: 0 1em;
 }
 
-.header__list__item__link {
-    color: black;
+.header__link {
+    color: $dark;
     text-decoration: none;
-    
 }
 
-.header__list__item__link:hover {
-    color: #820606;
+.header__link:hover {
+    color: $red;
 }
 
 .link-location-wrapper {

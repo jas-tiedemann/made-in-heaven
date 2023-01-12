@@ -1,5 +1,5 @@
 import React from 'react'
-import './start.css';
+import './start.scss';
 
 const Start = () => {
   return (
