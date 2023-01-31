@@ -1,43 +1,42 @@
-@import "../../App.scss";
+@import "../../styles/config.scss";
 
 .header {
     display: flex;
     background-color: $light;
     padding: 0.75em;
-}
 
-.header__image__wrapper {
-    margin: auto;
-}
+    &__image_wrapper {
+        margin: auto;
+    }
 
-.header__image {
-    width: 6em;
-}
+    &__image {
+        width: 6em;
+    }
 
-.header__nav {
-    margin: auto;
-}
+    &__nav {
+        margin: auto;
 
-.header__list {
-    display: flex;
-    flex-direction: row;
-}
+        .header__list {
+            display: flex;
+            flex-direction: row;
 
-.header__item {
-    width: fit-content;
-    list-style: none;
-    padding: 0 1em;
-}
+            .header__item {
+                width: fit-content;
+                list-style: none;
+                padding: 0 1em;
+                margin: auto;
 
-.header__link {
-    color: $dark;
-    text-decoration: none;
-}
+                .header__link {
+                    color: $dark;
+                    text-decoration: none;
 
-.header__link:hover {
-    color: $red;
-}
+                    &:hover {
+                        color: $red;
+                    }
+                }
+            }
 
-.link-location-wrapper {
-    padding-left: 9em;
+        }
+    }
+
 }

@@ -1,0 +1,130 @@
+@import "./utilities.scss";
+$dark: #080808;
+$light: #F0F0F0;
+$red: #820606;
+
+
+//headers
+
+.header--large {
+    @include xs {
+        font-size: 2em;
+    }
+    @include md {
+        font-size: 3em;
+    }
+    @include lg {
+        font-size: 4em;
+    }
+    @include lg {
+        font-size: 4em;
+    }
+}
+
+.header--medium {
+    @include xs {
+        font-size: 1em;
+    }
+    @include md {
+        font-size: 2em;
+    }
+    @include lg {
+        font-size: 3em;
+    }
+    @include lg {
+        font-size: 3.5em;
+    }
+}
+
+.header--small {
+    @include xs {
+        font-size: 0.75em;
+    }
+    @include md {
+        font-size: 1em;
+    }
+    @include lg {
+        font-size: 1.5em;
+    }
+    @include lg {
+        font-size: 2em;
+    }
+}
+
+
+//texts
+
+.text--large {
+    @include xs {
+        font-size: 0.75em;
+    }
+    @include md {
+        font-size: 1em;
+    }
+    @include lg {
+        font-size: 1.5em;
+    }
+    @include lg {
+        font-size: 2em;
+    }
+}
+
+.text--medium {
+    @include xs {
+        font-size: 0.75em;
+    }
+    @include lg {
+        font-size: 1em;
+    }
+}
+
+
+//buttons
+
+.btn--large {
+    @include xs {
+        font-size: 0.75em;
+    }
+    @include md {
+        font-size: 1em;
+    }
+    @include lg {
+        font-size: 1.5em;
+    }
+    @include lg {
+        font-size: 2em;
+    }
+
+}
+
+.btn--medium {
+    @include xs {
+        font-size: 0.75em;
+    }
+    @include md {
+        font-size: 1em;
+    }
+    @include lg {
+        font-size: 1.5em;
+    }
+    @include lg {
+        font-size: 2em;
+    }
+    
+}
+
+.btn--small {
+    @include xs {
+        font-size: 0.75em;
+    }
+    @include md {
+        font-size: 1em;
+    }
+    @include lg {
+        font-size: 1.5em;
+    }
+    @include lg {
+        font-size: 2em;
+    }
+    
+}

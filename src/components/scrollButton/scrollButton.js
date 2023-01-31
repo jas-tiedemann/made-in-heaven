@@ -22,7 +22,7 @@ const ScrollButton = () => {
             }
         };
         
-        window.addEventListener('scroll', toggleVisible);
+        window.addEventListener("scroll", toggleVisible);
     }, []);
 
     return (

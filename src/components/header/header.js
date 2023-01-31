@@ -1,12 +1,12 @@
 import React from "react";
-import './header.scss';
+import "./header.scss";
 import headerImage from "../../assets/images/logo.png";
 import { HiLocationMarker } from "react-icons/hi";
 
 const Header = () => {
   return (
     <div className="header">
-      <div className="header__image__wrapper">
+      <div className="header__image_wrapper">
         <img src={headerImage} className="header__image" alt="header__image"></img>
       </div>
         <nav className="header__nav">
@@ -26,7 +26,7 @@ const Header = () => {
             <li className="header__item">
               <a className="header__link" href="#kontakt">Kontakt</a>
             </li>
-            <li className="header link-location-wrapper">
+            <li className="header__item">
               <a className="header__link " href="#maps"><HiLocationMarker /></a>
             </li>
           </ul>

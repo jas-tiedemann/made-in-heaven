@@ -1,9 +1,21 @@
+@import "../../styles/config.scss";
+@import "../../styles/utilities.scss";
+
+
 .start__image {
     display: flex;
     justify-content: center;
     background: url("../../assets/images/bg-image-leaves.jpg");
-    background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    min-height: 35em;
+    @include xs {
+        height: 20em;
+        background-size: cover;
+    }
+    @include md {
+        height: 25em;
+    }
+    @include lg {
+        height: 35em;
+    }
 }

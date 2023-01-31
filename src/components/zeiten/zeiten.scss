@@ -1,72 +1,59 @@
-@import "../../App.scss";
+@import "../../styles/config.scss";
+@import "../../styles/utilities.scss";
+
 
 .zeiten {
     display: flex;
     color: $light;
     flex-direction: column;
     background-color: $dark;
-}
 
-.zeiten__willkommen {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding-bottom: 8em;
-}
+    &__willkommen {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-bottom: 8em;
+    }
 
-.zeiten__heading {
-    font-size: 4em;
-    margin: auto;
-    padding: 1em;
-    width: 9em;
-}
+    &__header {
+        margin: auto;
+        padding: 1em;
+        width: 10em;
+        text-align: center;
+    }
 
-.zeiten__paragraph {
-    margin: auto;
-}
+    &__info {
+        display: flex;
+        width: 100%;
+        min-height: 30em;
+    }
 
-.zeiten__info {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    min-height: 30em;
-}
+    &__bgimg {
+        background: url("../../assets/images/bg-image-leaves.jpg");
+        background-size: cover;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
 
-.zeiten__heading__wrapper {
-    background: url("../../assets/images/bg-image-leaves.jpg");
-    background-size: cover;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    &__list {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        background-color: $light;
+        color: $dark;
+        align-items: center;
+        justify-content: center;
+    }
 
-.zeiten__list {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    background-color: $light;
-    color: $dark;
-    align-items: center;
-    justify-content: center;
-}
+    &__time {
+        padding: 0 2em;
+    }
 
-.zeiten__list__heading {
-    margin: 1em auto;
-}
-
-.zeiten__time__wrapper {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-}
-
-.zeiten__list__time {
-    width: fit-content;
-    margin: 1em auto;
-}
-
-.zeiten__list__paragraph {
-    width: 25em;
-    text-align: center;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+    }
 }
