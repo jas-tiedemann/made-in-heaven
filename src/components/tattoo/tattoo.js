@@ -7,7 +7,7 @@ import imgBlumen from "../../assets/images/tattoo-blumen.jpg";
 
 const Tattoo = () => {
   return (
-    <section className="tattoo">
+    <section className="tattoo" id="tattos">
         <h2 className="tattoo__header header--medium">WER WIR SIND UND WAS DICH ERWARTET</h2>
         <div className="tattoo__row">
             <div className="tattoo__row--text">

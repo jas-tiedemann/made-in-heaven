@@ -5,11 +5,11 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 const ScrollButton = () => {
     const [visible, setVisible] = useState(false);
 
+    
+
     const scrollToTop = () =>{
-        window.scrollTo({
-            top: 0, 
-            behavior: "smooth"
-        });
+        const top = document.getElementById("start");
+        top.scrollIntoView();
     };
 
     useEffect(() => {
@@ -23,6 +23,7 @@ const ScrollButton = () => {
         };
         
         window.addEventListener("scroll", toggleVisible);
+        
     }, []);
 
     return (

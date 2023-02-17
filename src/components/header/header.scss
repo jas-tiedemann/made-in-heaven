@@ -1,6 +1,6 @@
 @import "../../styles/config.scss";
 
-.header {
+.headerDesk {
     display: flex;
     background-color: $light;
     padding: 0.75em;
@@ -16,17 +16,17 @@
     &__nav {
         margin: auto;
 
-        .header__list {
+        .headerDesk__list {
             display: flex;
             flex-direction: row;
 
-            .header__item {
+            .headerDesk__item {
                 width: fit-content;
                 list-style: none;
                 padding: 0 1em;
                 margin: auto;
 
-                .header__link {
+                .headerDesk__link {
                     color: $dark;
                     text-decoration: none;
 
@@ -39,4 +39,43 @@
         }
     }
 
+}
+
+.headerMob {
+    background-color: $light;
+
+
+    &__nav {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        min-height: 3.5em;
+
+        &__button {
+            margin: 1em auto;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            border: none;
+            height: 2em;
+        }
+
+        &__list {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            padding: 0;
+
+            .headerMob__item {
+                width: fit-content;
+                list-style: none;
+                padding: 1em 0;
+                margin: auto;
+
+                .headerMob__link {
+                    color: $dark;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }

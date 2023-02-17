@@ -1,52 +1,69 @@
 @import "./utilities.scss";
+
+//variables
 $dark: #080808;
 $light: #F0F0F0;
 $red: #820606;
+$specialFont: "Playfair Display";
+
+
 
 
 //headers
 
 .header--large {
     @include xs {
+        font-family: $specialFont;
         font-size: 2em;
     }
     @include md {
+        font-family: $specialFont;
         font-size: 3em;
     }
     @include lg {
+        font-family: $specialFont;
         font-size: 4em;
     }
     @include lg {
+        font-family: $specialFont;
         font-size: 4em;
     }
 }
 
 .header--medium {
     @include xs {
+        font-family: $specialFont;
         font-size: 1em;
     }
     @include md {
+        font-family: $specialFont;
         font-size: 2em;
     }
     @include lg {
+        font-family: $specialFont;
         font-size: 3em;
     }
     @include lg {
+        font-family: $specialFont;
         font-size: 3.5em;
     }
 }
 
 .header--small {
     @include xs {
+        font-family: $specialFont;
         font-size: 0.75em;
     }
     @include md {
+        font-family: $specialFont;
         font-size: 1em;
     }
     @include lg {
+        font-family: $specialFont;
         font-size: 1.5em;
     }
     @include lg {
+        font-family: $specialFont;
         font-size: 2em;
     }
 }
@@ -84,15 +101,19 @@ $red: #820606;
 .btn--large {
     @include xs {
         font-size: 0.75em;
+        height: 8em;
     }
     @include md {
         font-size: 1em;
+        height: 7.5em;
     }
     @include lg {
         font-size: 1.5em;
+        height: 7em;
     }
     @include lg {
         font-size: 2em;
+        height: 6em;
     }
 
 }
@@ -100,15 +121,19 @@ $red: #820606;
 .btn--medium {
     @include xs {
         font-size: 0.75em;
+        height: 5em;
     }
     @include md {
         font-size: 1em;
+        height: 4em;
     }
     @include lg {
         font-size: 1.5em;
+        height: 3.7em;
     }
     @include lg {
         font-size: 2em;
+        height: 3.25em;
     }
     
 }
@@ -116,15 +141,27 @@ $red: #820606;
 .btn--small {
     @include xs {
         font-size: 0.75em;
+        height: 3em;
     }
     @include md {
         font-size: 1em;
+        height: 3em;
     }
     @include lg {
         font-size: 1.5em;
+        height: 3em;
     }
     @include lg {
         font-size: 2em;
+        height: 3em;
     }
     
+}
+
+
+//icons
+
+.icon--large {
+    width: 1.5em;
+    height: 1.5em;
 }
