@@ -22,10 +22,33 @@
         text-align: center;
     }
 
+    &__button {
+        background-color: $dark;
+        border: none;
+        width: 7em;
+        margin: auto;
+    }
+
+    &__anchor {
+        color: $light;
+        text-decoration: none;
+    }
+
     &__info {
         display: flex;
         width: 100%;
         min-height: 30em;
+        @include xs {
+            flex-direction: column;
+            width: 100%;
+        }
+        @include sm {
+            
+        }
+        @include md {
+            width: 100%;
+            min-height: 30em;
+        }
     }
 
     &__bgimg {

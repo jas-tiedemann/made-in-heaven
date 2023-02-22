@@ -3,10 +3,10 @@ import "./zeiten.scss";
 
 const Zeiten = () => {
   return (
-    <div className="zeiten" id="öffnungszeiten">
+    <div className="zeiten" id="oeffnungszeiten">
         <div className="zeiten__willkommen">
             <h1 className="zeiten__header header--large">WILLKOMMEN BEI MADE IN HEAVEN</h1>
-            <p className="zeiten__header">Mehr erfahren</p>
+            <button className="zeiten__button --btn-large"><a className="zeiten__anchor anchor--small" href="#tattoos">Mehr erfahren</a></button>
         </div>
         <div className="zeiten__info">
             <div className="zeiten__bgimg">
@@ -22,7 +22,7 @@ const Zeiten = () => {
             </div>
         </div>
     </div>
-  )
+  );
 }
 
 export default Zeiten;

@@ -6,7 +6,7 @@ import { TfiClose } from "react-icons/tfi";
 import { FiMenu } from "react-icons/fi";
 
 
-const HeaderMob = ( {refStart, refZeiten, refScroll, refTattoo, refFooter}  ) => {
+const HeaderMob = () => {
   const [extended, setExtended] = useState(false);
 
   const handleExtend = () => {
@@ -14,12 +14,6 @@ const HeaderMob = ( {refStart, refZeiten, refScroll, refTattoo, refFooter}  ) =>
   }
 
   const handleCollapse = () => {
-    setExtended(false);
-  }
-
-
-  const handleClick = (comp) => {
-    comp.scrollIntoView();
     setExtended(false);
   }
 
@@ -49,10 +43,10 @@ const HeaderMob = ( {refStart, refZeiten, refScroll, refTattoo, refFooter}  ) =>
               <a className="headerMob__link" href="#start" onClick={handleCollapse}>Start</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#öffnungszeiten" onClick={handleCollapse}>Öffnungszeiten</a>
+              <a className="headerMob__link" href="#oeffnungszeiten" onClick={handleCollapse}>Öffnungszeiten</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#tattos" onClick={handleCollapse}>Tattoo-Service</a>
+              <a className="headerMob__link" href="#tattoos" onClick={handleCollapse}>Tattoo-Service</a>
             </li>
             <li className="headerMob__item">
               <a className="headerMob__link" href="#piercing" onClick={handleCollapse}>Piercing-Service</a>
