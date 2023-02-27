@@ -2,20 +2,47 @@
 @import "../../styles/utilities.scss";
 
 
-.start__image {
+.start {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    flex-direction: column;
     background: url("../../assets/images/bg-image-leaves.jpg");
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    color: $light;
     @include xs {
-        height: 20em;
-        background-size: cover;
-    }
-    @include md {
-        height: 25em;
+        min-height: 45em;
     }
     @include lg {
-        height: 35em;
+        min-height: 55em;
+    }
+    
+    &__willkommen {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 8em;
+        background-color: $dark;
+        width: 100%;
+    }
+    
+    &__header {
+        margin: auto;
+        padding: 1em 0;
+        width: 10em;
+        text-align: center;
+    }
+
+    &__button {
+        background-color: transparent;
+        border: none;
+        width: 9em;
+        margin: auto;
+    }
+    
+
+    &__anchor {
+        color: $light;
+        text-decoration: none;
     }
 }
