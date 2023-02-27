@@ -4,38 +4,49 @@
 .tattoo {
     background: url("../../assets/images/bg-image-leaves-2.jpg");
     background-size: cover;
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     color: $light;
 
     &__header {
-        margin: 3em auto;
+        margin: 1.75em auto;
+        text-align: center;
     }
 
     &__row {
         background-color: $light;
         color: $dark;
-        margin: 0 2em;
-        margin-top: 2em;
         display: flex;
+        margin: auto;
+        margin-bottom: 5em;
 
         &--text {
-            width: 45%;
-            margin: 5em;
+            @include xs {
+                width: 90%;
+                margin: 5em;
+            }
+            @include lg {
+                width: 65%;
+            }
+            
         }
+        
         &--image {
-            width: 25%;
-            height: 35em;
-            display: flex;
+            @include xs {
+                display: none;
+            }
+
+            @include lg {
+                width: 25%;
+                height: 35em;
+                display: flex;
+                object-fit: cover;
+            }
+            
         }
     }
 
     &__wrapper {
         width: 45%;
         margin: 5em;
-    }
-
-    &__image {
     }
 }

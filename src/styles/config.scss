@@ -1,12 +1,25 @@
 @import "./utilities.scss";
 
 //variables
+
 $dark: #080808;
 $light: #F0F0F0;
 $red: #820606;
 $specialFont: "Playfair Display";
 
 
+//spacing
+
+.standard--width {
+    @include xl {
+        width: 1280px;
+    }
+}
+
+.standard--center {
+    display: flex;
+    align-items: center;
+}
 
 
 //headers
@@ -24,47 +37,27 @@ $specialFont: "Playfair Display";
         font-family: $specialFont;
         font-size: 4em;
     }
-    @include lg {
-        font-family: $specialFont;
-        font-size: 4em;
-    }
 }
 
 .header--medium {
     @include xs {
         font-family: $specialFont;
-        font-size: 1em;
+        font-size: 1.25em;
     }
-    @include md {
+    @include lg {
         font-family: $specialFont;
         font-size: 2em;
-    }
-    @include lg {
-        font-family: $specialFont;
-        font-size: 3em;
-    }
-    @include lg {
-        font-family: $specialFont;
-        font-size: 3.5em;
     }
 }
 
 .header--small {
     @include xs {
         font-family: $specialFont;
-        font-size: 0.75em;
-    }
-    @include md {
-        font-family: $specialFont;
         font-size: 1em;
     }
     @include lg {
         font-family: $specialFont;
         font-size: 1.5em;
-    }
-    @include lg {
-        font-family: $specialFont;
-        font-size: 2em;
     }
 }
 
@@ -77,9 +70,6 @@ $specialFont: "Playfair Display";
     }
     @include md {
         font-size: 1em;
-    }
-    @include lg {
-        font-size: 1.5em;
     }
     @include lg {
         font-size: 2em;

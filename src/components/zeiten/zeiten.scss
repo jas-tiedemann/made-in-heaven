@@ -8,13 +8,6 @@
     flex-direction: column;
     background-color: $dark;
 
-    &__willkommen {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        padding-bottom: 8em;
-    }
-
     &__header {
         margin: auto;
         padding: 1em;
@@ -29,50 +22,53 @@
         margin: auto;
     }
 
-    &__anchor {
-        color: $light;
-        text-decoration: none;
-    }
-
     &__info {
-        display: flex;
-        width: 100%;
-        min-height: 30em;
         @include xs {
+            display: flex;
             flex-direction: column;
             width: 100%;
         }
-        @include sm {
-            
-        }
-        @include md {
-            width: 100%;
-            min-height: 30em;
+        @include lg {
+            flex-direction: row;
         }
     }
 
     &__bgimg {
-        background: url("../../assets/images/bg-image-leaves.jpg");
-        background-size: cover;
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
+        @include xs {
+            width: 100%;
+            min-height: 15em;
+            background: url("../../assets/images/bg-image-leaves.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @include lg {
+            width: 50%;
+            min-height: 25em;
+        }
     }
 
     &__list {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        background-color: $light;
-        color: $dark;
-        align-items: center;
-        justify-content: center;
+        @include xs {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: $light;
+            color: $dark;
+            align-items: center;
+            justify-content: center;
+            min-height: 15em;
+        }
+        @include lg {
+            width: 50%;
+            min-height: 25em;
+        }
     }
 
     &__time {
         padding: 0 2em;
+        text-align: center;
     }
 
     &__wrapper {
