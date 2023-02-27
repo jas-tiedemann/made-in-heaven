@@ -1,4 +1,5 @@
-import './App.scss';
+import "./App.scss";
+import "./styles/config.scss";
 import HeaderDesk from "./components/header/headerDesk";
 import HeaderMob from "./components/header/headerMob";
 import Start from "./components/start/start";
@@ -6,6 +7,7 @@ import Zeiten from "./components/zeiten/zeiten";
 import Footer from "./components/footer/footer";
 import ScrollButton from "./components/scrollButton/scrollButton";
 import Tattoo from "./components/tattoo/tattoo";
+import Piercing from "./components/piercing/piercing";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -46,9 +48,10 @@ function App() {
 
       <main>
         <Start />
-        <Zeiten />
         <ScrollButton />
         <Tattoo />
+        <Piercing />
+        <Zeiten />
       </main>
 
       <footer>
