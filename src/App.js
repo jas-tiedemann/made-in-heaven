@@ -51,7 +51,7 @@ function App() {
         <ScrollButton />
         <Tattoo />
         <Piercing />
-        <Zeiten />
+        {/*<Zeiten />*/}
       </main>
 
       <footer>
