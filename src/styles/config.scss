@@ -22,6 +22,19 @@ $specialFont: "Playfair Display";
 }
 
 
+//stylings
+.roundedCor {
+    border-radius: 8px;
+}
+
+.infoWrapper {
+    background-color: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    
+}
+
+
 //headers
 
 .header--large {

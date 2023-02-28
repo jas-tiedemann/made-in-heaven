@@ -15,35 +15,35 @@
         @include xs {
             display: flex;
             justify-content: center;
-            width: 100%;
             margin: auto;
         }
         @include lg {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            margin: auto;
         }
-        
     }
 
     &__text {
-        margin: 5em;
-        width: 50%;
+        @include xs {
+            width: 45%;
+            margin: 5em;
+        }
+        @include lg {
+            width: 75%;
+        }
+        
     }
 
     &--image {
         @include xs {
             display: none;
-            margin: auto;
         }
 
         @include lg {
             width: 25%;
-            height: 23em;
+            height: 28em;
             display: flex;
             object-fit: cover;
-            margin: 2em;
+            border-radius: 0 8px 8px 0;
+            
         }
     }
 }

@@ -8,7 +8,7 @@ const Tattoo = () => {
   return (
     <section className="tattoo standard--center" id="tattoos">
         <h2 className="tattoo__header header--medium standard--width">WER WIR SIND UND WAS DICH ERWARTET</h2>
-        <div className="tattoo__row standard--width">
+        <div className="tattoo__row standard--width infoWrapper roundedCor">
             <div className="tattoo__row--text">
                 <h3 className="header--small">WIR MACHEN DEINE WÜNSCHE WAHR!</h3>
                 <h4 className="header--small">Liebe deine Tattoos</h4>
@@ -22,10 +22,10 @@ const Tattoo = () => {
                     Dazu sind wir noch ganz spaßige Zeitgenossen, sodass der Aufenthalt bei uns auch nicht zu langweilig wird.
                 </p>
             </div>
-            <img src={imgWaschbär} alt="img-schnecke" className="tattoo__row--image"></img>
+            <img src={imgWaschbär} alt="img-schnecke" className="tattoo__row__image tattoo__row__image--top"></img>
         </div>
-        <div className="tattoo__row standard--width">
-            <img src={imgBlumen} alt="img-blumen" className="tattoo__row--image"></img>
+        <div className="tattoo__row standard--width infoWrapper roundedCor">
+            <img src={imgBlumen} alt="img-blumen" className="tattoo__row__image tattoo__row__image--bottom"></img>
             <div className="tattoo__row--text">
                 <h3 className="header--small">DEINE IDEEN</h3>
                 <h4 className="header--small">Kunst auf deinem Körper</h4>

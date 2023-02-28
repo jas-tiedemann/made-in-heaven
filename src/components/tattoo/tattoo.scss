@@ -13,7 +13,6 @@
     }
 
     &__row {
-        background-color: $light;
         color: $dark;
         display: flex;
         margin: auto;
@@ -23,6 +22,7 @@
             @include xs {
                 width: 90%;
                 margin: 5em;
+                color: $light;
             }
             @include lg {
                 width: 65%;
@@ -30,18 +30,27 @@
             
         }
         
-        &--image {
+        &__image {
             @include xs {
                 display: none;
             }
 
             @include lg {
                 width: 25%;
-                height: 35em;
                 display: flex;
                 object-fit: cover;
+                
             }
             
+            &--top {
+                border-radius: 0 8px 8px 0;
+                height: 35em;
+            }
+            
+            &--bottom {
+                border-radius: 8px 0 0 8px;
+                height: 30em;
+            }
         }
     }
 
