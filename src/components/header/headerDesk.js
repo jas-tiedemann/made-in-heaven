@@ -18,7 +18,7 @@ const HeaderDesk = () => {
               <a className="headerDesk__link" href="#tattoos">Tattoo-Service</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#piercing">Piercing-Service</a>
+              <a className="headerDesk__link" href="#piercings">Piercing-Service</a>
             </li>
             <li className="headerDesk__item">
               <a className="headerDesk__link" href="#kontakt">Kontakt</a>
