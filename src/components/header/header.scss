@@ -49,8 +49,8 @@
     &__nav {
         margin: auto;
         display: grid;
-        grid-template-columns: 10% 80% 10%;
-        min-height: 3.5em;
+        grid-template-columns: 15% 70% 15%;
+        min-height: 4.5em;
 
         &__button {
             margin: 1em auto;
@@ -58,6 +58,16 @@
             grid-column-end: 1;
             border: none;
             height: 2em;
+
+            &--collapsed {
+                align-self: center;
+            }
+        }
+
+        &__image {
+            width: 4em;
+            grid-column-start: 3;
+            align-self: center;
         }
 
         &__list {

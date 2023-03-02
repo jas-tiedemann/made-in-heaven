@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.scss";
+import headerImage from "../../assets/images/logo.png";
 import { HiLocationMarker } from "react-icons/hi";
 import { IconContext } from "react-icons";
 import { TfiClose } from "react-icons/tfi";
@@ -21,11 +22,12 @@ const HeaderMob = () => {
     return (
       <div className="headerMob" id="start">
         <nav className="headerMob__nav">
-          <button onClick={handleExtend} className="headerMob__nav__button">
+          <button onClick={handleExtend} className="headerMob__nav__button headerMob__nav__button--collapsed">
             <IconContext.Provider value={{className: "icon--large"}} >
               <FiMenu />
             </IconContext.Provider>
           </button>
+          <img src={headerImage} className="headerMob__nav__image" alt="headerMob__nav__image"></img>
         </nav>
       </div>
     )
