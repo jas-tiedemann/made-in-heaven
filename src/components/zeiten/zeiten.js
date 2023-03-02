@@ -4,7 +4,7 @@ import "./zeiten.scss";
 const Zeiten = () => {
   return (
     <div className="zeiten" id="oeffnungszeiten">
-        <div className="zeiten__info standard--width">
+        <div className="zeiten__info standard--width info-wrapper rounded-cor">
             <div className="zeiten__bgimg">
                 <h2 className="zeiten__header header--medium">Öffnungszeiten</h2>
             </div>
