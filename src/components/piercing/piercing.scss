@@ -5,6 +5,7 @@
     flex-direction: column;
     color: $light;
     width: 100%;
+    margin-bottom: 5em;
     
     &__header {
         margin: 1.75em auto;
@@ -16,6 +17,7 @@
             display: flex;
             justify-content: center;
             margin: auto;
+            overflow: hidden;
         }
         @include lg {
         }
@@ -23,11 +25,11 @@
 
     &__text {
         @include xs {
-            width: 45%;
-            margin: 5em;
+            margin: 1em;
         }
         @include lg {
             width: 75%;
+            margin: 5em;
         }
         
     }
@@ -36,14 +38,19 @@
         @include xs {
             display: none;
         }
+        @include sm {
+            display: flex;
+            margin: auto;
+            object-fit: cover;
+            max-height: 35em;
+            width: 45%;
+        }
 
         @include lg {
-            width: 25%;
-            height: 28em;
             display: flex;
-            object-fit: cover;
-            border-radius: 0 8px 8px 0;
-            
+            margin: 0;
+            max-height: 100%;
+            width: 25%;
         }
     }
 }
