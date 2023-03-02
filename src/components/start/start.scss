@@ -11,12 +11,7 @@
     background-position: center;
     background-size: cover;
     color: $light;
-    @include xs {
-        min-height: 45em;
-    }
-    @include lg {
-        min-height: 55em;
-    }
+    min-height: 55em;
     
     &__willkommen {
         display: flex;
