@@ -2,13 +2,16 @@ import React from "react";
 import "./tattoo.scss";
 import "../../styles/config.scss";
 import imgWaschbär from "../../assets/images/tattoo-waschbär.jpg";
+import imgWaschbärTight from "../../assets/images/tattoo-waschbär-tight.jpg";
 import imgBlumen from "../../assets/images/tattoo-blumen.jpg";
+import imgBlumenTight from "../../assets/images/tattoo-blumen-tight.jpg";
 
 const Tattoo = () => {
+
   return (
     <section className="tattoo standard--center" id="tattoos">
         <h2 className="tattoo__header header--medium standard--width">WER WIR SIND UND WAS DICH ERWARTET</h2>
-        <div className="tattoo__row standard--width infoWrapper roundedCor">
+        <div className="tattoo__row standard--width info-wrapper rounded-cor">
             <div className="tattoo__row--text">
                 <h3 className="header--small">WIR MACHEN DEINE WÜNSCHE WAHR!</h3>
                 <h4 className="header--small">Liebe deine Tattoos</h4>
@@ -22,10 +25,10 @@ const Tattoo = () => {
                     Dazu sind wir noch ganz spaßige Zeitgenossen, sodass der Aufenthalt bei uns auch nicht zu langweilig wird.
                 </p>
             </div>
-            <img src={imgWaschbär} alt="img-schnecke" className="tattoo__row__image tattoo__row__image--top"></img>
+            <img src={imgWaschbärTight} alt="img-waschbär" className="tattoo__row__image"></img>
         </div>
-        <div className="tattoo__row standard--width infoWrapper roundedCor">
-            <img src={imgBlumen} alt="img-blumen" className="tattoo__row__image tattoo__row__image--bottom"></img>
+        <div className="tattoo__row standard--width info-wrapper rounded-cor">
+            <img src={imgBlumenTight} alt="img-blumen" className="tattoo__row__image"></img>
             <div className="tattoo__row--text">
                 <h3 className="header--small">DEINE IDEEN</h3>
                 <h4 className="header--small">Kunst auf deinem Körper</h4>
