@@ -9,7 +9,7 @@ const Piercing = () => {
       <div className="piercing__header header--medium standard--width">
         <h2 className="header--medium">DAS BESTE PIERCING</h2>
       </div>
-      <div className="piercing__row standard--width infoWrapper roundedCor">
+      <div className="piercing__row standard--width info-wrapper rounded-cor">
         <div className="piercing__text">
           <h3 className="header--small">KOMM IN DEN PIERCINGHIMMEL</h3>
           <p className="text--medium">

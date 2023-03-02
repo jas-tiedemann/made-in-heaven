@@ -11,6 +11,9 @@ $specialFont: "Playfair Display";
 //spacing
 
 .standard--width {
+    @include xs {
+        width: 95%;
+    }
     @include xl {
         width: 1280px;
     }
@@ -23,15 +26,14 @@ $specialFont: "Playfair Display";
 
 
 //stylings
-.roundedCor {
+.rounded-cor {
     border-radius: 8px;
 }
 
-.infoWrapper {
+.info-wrapper {
     background-color: rgba(255,255,255, 0.1);
-    backdrop-filter: blur(5px);
     border: 1px solid white;
-    
+
 }
 
 
@@ -79,9 +81,6 @@ $specialFont: "Playfair Display";
 
 .text--large {
     @include xs {
-        font-size: 0.75em;
-    }
-    @include md {
         font-size: 1em;
     }
     @include lg {
@@ -91,9 +90,6 @@ $specialFont: "Playfair Display";
 
 .text--medium {
     @include xs {
-        font-size: 0.75em;
-    }
-    @include lg {
         font-size: 1em;
     }
 }
