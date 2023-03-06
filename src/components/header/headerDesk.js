@@ -6,7 +6,7 @@ import { HiLocationMarker } from "react-icons/hi";
 const HeaderDesk = () => {
   return (
     <div className="headerDesk" id="start">
-      <div className="headerDesk__image_wrapper">
+      <div className="headerDesk__image-wrapper">
         <img src={headerImage} className="headerDesk__image" alt="headerDesk__image"></img>
       </div>
         <nav className="headerDesk__nav">

@@ -5,7 +5,7 @@
     background-color: $light;
     padding: 0.75em;
 
-    &__image_wrapper {
+    &__image-wrapper {
         margin: auto;
     }
 
@@ -51,44 +51,44 @@
         display: grid;
         grid-template-columns: 15% 70% 15%;
         min-height: 4.5em;
+    }
 
-        &__button {
-            margin: 1em auto;
-            grid-column-start: 1;
-            grid-column-end: 1;
-            border: none;
-            height: 2em;
-            align-self: center;
+    &__button {
+        margin: 1em auto;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        border: none;
+        height: 2em;
+        align-self: center;
 
-            &--collapsed {
-                align-self: center;
-            }
-        }
-
-        &__image {
-            width: 4em;
-            grid-column-start: 2;
-            margin: auto;
+        &--collapsed {
             align-self: center;
         }
+    }
 
-        &__list {
-            grid-column-start: 2;
-            grid-column-end: 3;
-            grid-row-start: 1;
-            padding: 0;
+    &__image {
+        width: 4em;
+        grid-column-start: 2;
+        margin: auto;
+        align-self: center;
+    }
 
-            .headerMob__item {
-                width: fit-content;
-                list-style: none;
-                padding: 1em 0;
-                margin: auto;
+    &__list {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        padding: 0;
+    }
 
-                .headerMob__link {
-                    color: $dark;
-                    text-decoration: none;
-                }
-            }
-        }
+    &__item {
+        width: fit-content;
+        list-style: none;
+        padding: 1em 0;
+        margin: auto;
+    }
+
+    &__link {
+        color: $dark;
+        text-decoration: none;
     }
 }

@@ -19,6 +19,17 @@ $specialFont: "Playfair Display";
     }
 }
 
+.small--width {
+    @include xs {
+        width: 90%;
+    }@include sm {
+        width: 85%;
+    }
+    @include md {
+        width: 576px;
+    }
+}
+
 .standard--center {
     display: flex;
     align-items: center;
@@ -39,58 +50,61 @@ $specialFont: "Playfair Display";
 
 //headers
 
-.header--large {
-    @include xs {
-        font-family: $specialFont;
-        font-size: 2em;
-    }
-    @include md {
-        font-family: $specialFont;
-        font-size: 3em;
-    }
-    @include lg {
-        font-family: $specialFont;
-        font-size: 4em;
-    }
-}
+.header {
+    font-family: $specialFont;
+    width: fit-content;
+    text-align: center;
 
-.header--medium {
-    @include xs {
-        font-family: $specialFont;
-        font-size: 1.25em;
+    &--large {
+        @include xs {
+            font-size: 2em;
+        }
+        @include md {
+            font-size: 3em;
+        }
+        @include lg {
+            font-size: 4em;
+        }
     }
-    @include lg {
-        font-family: $specialFont;
-        font-size: 2em;
-    }
-}
 
-.header--small {
-    @include xs {
-        font-family: $specialFont;
-        font-size: 1em;
+    &--medium {
+        @include xs {
+            font-size: 1.25em;
+            margin: 1em auto;
+        }
+        @include lg {
+            font-size: 2em;
+            margin: 1em auto;
+        }
     }
-    @include lg {
-        font-family: $specialFont;
-        font-size: 1.5em;
+
+    &--small {
+        @include xs {
+            font-size: 1em;
+        }
+        @include lg {
+            font-size: 1.5em;
+        }
     }
 }
 
 
 //texts
 
-.text--large {
-    @include xs {
-        font-size: 1em;
+.text {
+    &--large {
+        @include xs {
+            font-size: 1em;
+        }
+        @include lg {
+            font-size: 2em;
+        }
     }
-    @include lg {
-        font-size: 2em;
-    }
-}
 
-.text--medium {
-    @include xs {
-        font-size: 1em;
+    &--medium {
+        @include xs {
+            font-size: 1em;
+        }
     }
 }
 
@@ -154,7 +168,6 @@ $specialFont: "Playfair Display";
         font-size: 2em;
         height: 3em;
     }
-    
 }
 
 
@@ -163,4 +176,15 @@ $specialFont: "Playfair Display";
 .icon--large {
     width: 1.5em;
     height: 1.5em;
+}
+
+
+//inputs 
+
+.input--standard {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2em;
 }

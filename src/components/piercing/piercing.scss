@@ -6,11 +6,6 @@
     color: $light;
     width: 100%;
     margin-bottom: 5em;
-    
-    &__header {
-        margin: 1.75em auto;
-        text-align: center;
-    }
 
     &__row {
         @include xs {

@@ -12,10 +12,6 @@
         backdrop-filter: none;
     }
 
-    &__header {
-        margin: 1.75em auto;
-        text-align: center;
-    }
 
     &__row {
         @include xs {
@@ -31,31 +27,31 @@
         @include md {
             margin-bottom: 5em;
         }
+    }
 
-        &--text {
-            @include xs {
-                width: 90%;
-                margin: 1em;
-                color: $light;
-            }
-            @include lg {
-                width: 65%;
-                margin: 5em;
-            }
-            
+    &__text {
+        @include xs {
+            width: 90%;
+            margin: 1em;
+            color: $light;
+        }
+        @include lg {
+            width: 65%;
+            margin: 5em;
         }
         
-        &__image {
-            @include xs {
-                display: none;
-            }
-            @include md {
-                display: flex;
-                margin: 0;
-                object-fit: cover;
-                max-height: 30em;
-                width: 25%;
-            }
+    }
+    
+    &__image {
+        @include xs {
+            display: none;
+        }
+        @include md {
+            display: flex;
+            margin: 0;
+            object-fit: cover;
+            max-height: 30em;
+            width: 25%;
         }
     }
 }
