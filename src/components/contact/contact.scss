@@ -1,0 +1,31 @@
+@import "../../styles/config.scss";
+.contact {
+    display: flex;
+    justify-content: center;
+    background: url("../../assets/images/bg-image-leaves.jpg");
+    background-size: cover;
+    min-height: 50em;
+    margin: auto;
+    color: $light;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        min-height: 20em;
+        padding: 3em 0;
+        backdrop-filter: blur(5px);
+    }
+
+    &__button {
+        width: 6em;
+        height: 3em;
+    }
+
+    .input--big {
+        line-height: 6em;
+    }
+
+    .input--small {
+        line-height: 1.5em;
+    }
+}

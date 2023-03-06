@@ -8,6 +8,7 @@ import Footer from "./components/footer/footer";
 import ScrollButton from "./components/scrollButton/scrollButton";
 import Tattoo from "./components/tattoo/tattoo";
 import Piercing from "./components/piercing/piercing";
+import Contact from "./components/contact/contact";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
         <ScrollButton />
         <Tattoo />
         <Piercing />
+        <Contact />
         {/*<Zeiten />*/}
       </main>
 
