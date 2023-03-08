@@ -2,6 +2,7 @@ import React from "react";
 import "./start.scss";
 import "../../styles/config.scss";
 
+
 const Start = () => {
   return (
     <div className="start">
