@@ -33,10 +33,12 @@ $specialFont: "Playfair Display";
 .standard--center {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
 //stylings
+
 .rounded-cor {
     border-radius: 8px;
 }
@@ -51,28 +53,38 @@ $specialFont: "Playfair Display";
 //headers
 
 .header {
-    font-family: $specialFont;
-    width: fit-content;
-    text-align: center;
 
     &--large {
         @include xs {
+            text-transform: uppercase;
+            font-family: $specialFont;
+            width: fit-content;
             font-size: 2em;
         }
         @include md {
-            font-size: 3em;
+            text-transform: uppercase;
+            font-family: $specialFont;
+            width: fit-content;
+            font-size: 2.5em;
         }
         @include lg {
-            font-size: 4em;
+            text-transform: uppercase;
+            font-family: $specialFont;
+            width: fit-content;
+            font-size: 3.5em;
         }
     }
 
     &--medium {
         @include xs {
+            text-transform: uppercase;
+            font-family: $specialFont;
             font-size: 1.25em;
             margin: 1em auto;
         }
         @include lg {
+            text-transform: uppercase;
+            font-family: $specialFont;
             font-size: 2em;
             margin: 1em auto;
         }
@@ -80,9 +92,13 @@ $specialFont: "Playfair Display";
 
     &--small {
         @include xs {
+            text-transform: uppercase;
+            font-family: $specialFont;
             font-size: 1em;
         }
         @include lg {
+            text-transform: uppercase;
+            font-family: $specialFont;
             font-size: 1.5em;
         }
     }
@@ -97,7 +113,7 @@ $specialFont: "Playfair Display";
             font-size: 1em;
         }
         @include lg {
-            font-size: 2em;
+            font-size: 1.5em;
         }
     }
 
@@ -113,22 +129,15 @@ $specialFont: "Playfair Display";
 
 .btn--large {
     @include xs {
-        font-size: 0.75em;
-        height: 8em;
+        padding: 1em;
+        width: 6em;
+        height: 4em;
     }
     @include md {
-        font-size: 1em;
-        height: 7.5em;
+        padding: 1em;
+        width: 9em;
+        height: 4em;
     }
-    @include lg {
-        font-size: 1.5em;
-        height: 7em;
-    }
-    @include lg {
-        font-size: 2em;
-        height: 6em;
-    }
-
 }
 
 .btn--medium {
@@ -174,6 +183,11 @@ $specialFont: "Playfair Display";
 //icons
 
 .icon--large {
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.icon--medium {
     width: 1.5em;
     height: 1.5em;
 }
