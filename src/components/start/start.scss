@@ -4,39 +4,84 @@
 
 .start {
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
-    background: url("../../assets/images/bg-image-leaves.jpg");
+    background: url("../../assets/images/bg-image-leaves-2.jpg");
     background-attachment: fixed;
     background-position: center;
+    justify-content: center;
     background-size: cover;
     color: $light;
-    min-height: 55em;
+    padding: 2em;
+
+    @include xs {
+        min-height: 100vh;
+    }
+
+    @include lg {
+        min-height: calc(100vh - 170px);
+    }
     
     &__willkommen {
         display: flex;
         flex-direction: column;
-        padding-bottom: 8em;
-        background-color: $dark;
         width: 100%;
-    }
-    
-    &__header {
-        margin: auto;
-        padding: 1em 0;
-        width: 10em;
-        text-align: center;
+        margin: 0;
+
+        @include lg {
+            margin: 5em;
+        }
     }
 
-    &__button {
-        background-color: transparent;
+    &__button-termin {
+        background-color: $red;
+        color: $light;
         border: none;
-        width: 9em;
-        margin: auto;
+        width: fit-content;
+        text-align: center;
+
+        .book-appoi {
+            display: block;
+            padding: 1rem;
+            width: 7rem;
+            text-decoration: none;
+            color: $light;
+            border-radius: 8px;
+            
+            @include md {
+                &:hover {
+                    background-color: $light;
+                    color: $red;
+                }
+            }
+        }
+
+        
     }
+
+    &__button-scroll {
+        position: absolute;
+        bottom: 10px;
+        align-self: center;
+        background-color: transparent;
+        color: $light;
+        border: none;
+        text-align: center;
+        margin: 0;
+
+        .arrow-scroll {
+            @include md {
+                &:hover {
+                    color: $red;
+    
+                }
+            }
+        }
+    }
+
+    
     
 
-    &__anchor {
+    &__arrow {
         color: $light;
         text-decoration: none;
     }
