@@ -29,7 +29,7 @@ const ScrollButton = () => {
     return (
         <div className="scroll__wrapper">
             <button className="scroll__button" onClick={scrollToTop} style={{display: visible ? "inline" : "none"}}>
-                <AiOutlineArrowUp />
+                <AiOutlineArrowUp className="icon--large" />
             </button>
         </div>
     );
