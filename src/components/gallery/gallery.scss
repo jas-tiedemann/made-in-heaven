@@ -1,0 +1,40 @@
+@import "../../styles/config.scss";
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    background-color: $light;
+    color: $dark;
+    width: 100%;
+    padding: 5em 0;
+
+    &__header-wrapper {
+        display: flex;
+    }
+
+    &__wrapper {
+        text-align: center;
+        align-self: center;
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: 0;
+
+        @include lg {
+            width: 80%;
+        }
+    }
+
+    &__artist {
+        display: inline-block;
+        height: 15em;
+        width: fit-content;
+        margin: 0.5em;
+    }
+
+    &__img {
+        height: 15em;
+        width: 12.5em;
+        object-fit: cover;
+    }
+}

@@ -6,7 +6,8 @@ import Start from "./components/start/start";
 import Zeiten from "./components/zeiten/zeiten";
 import Footer from "./components/footer/footer";
 import ScrollButton from "./components/scrollButton/scrollButton";
-import Tattoo from "./components/tattoo/tattoo";
+import About from "./components/about/about";
+import Gallery from "./components/gallery/gallery";
 import Piercing from "./components/piercing/piercing";
 import { useState, useEffect } from "react";
 
@@ -28,7 +29,7 @@ function App() {
 
   useEffect(() => {
     const setResponsiveness = (e) => {
-        window.innerWidth < 900 ?
+        window.innerWidth < 992 ?
           setMobileView(true) : 
           setMobileView(false)
         }
@@ -49,7 +50,8 @@ function App() {
       <main>
         <Start />
         <ScrollButton />
-        <Tattoo />
+        <About />
+        <Gallery />
         <Piercing />
         {/*<Zeiten />*/}
       </main>

@@ -23,7 +23,7 @@ const HeaderMob = () => {
       <div className="headerMob" id="start">
         <nav className="headerMob__nav">
           <button onClick={handleExtend} className="headerMob__button headerMob__button--collapsed">
-            <IconContext.Provider value={{className: "icon--large"}} >
+            <IconContext.Provider value={{className: "icon--medium"}} >
               <FiMenu />
             </IconContext.Provider>
           </button>
@@ -36,7 +36,7 @@ const HeaderMob = () => {
       <div className="headerMob" id="start">
         <nav className="headerMob__nav">
           <button onClick={handleCollapse} className="headerMob__button">
-            <IconContext.Provider value={{className: "icon--large"}}>
+            <IconContext.Provider value={{className: "icon--medium"}}>
               <TfiClose />
             </IconContext.Provider>
           </button>
@@ -45,13 +45,13 @@ const HeaderMob = () => {
               <a className="headerMob__link" href="#start" onClick={handleCollapse}>Start</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#tattoos" onClick={handleCollapse}>Tattoo-Service</a>
+              <a className="headerMob__link" href="#ueber" onClick={handleCollapse}>Über uns</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#piercings" onClick={handleCollapse}>Piercing-Service</a>
+              <a className="headerMob__link" href="#tattoos" onClick={handleCollapse}>Tattoos</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#kontakt" onClick={handleCollapse}>Kontakt</a>
+              <a className="headerMob__link" href="#piercings" onClick={handleCollapse}>Piercings</a>
             </li>
             <li className="headerMob__item">
               <a className="headerMob__link" href="#oeffnungszeiten" onClick={handleCollapse}>Öffnungszeiten</a>

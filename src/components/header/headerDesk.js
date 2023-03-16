@@ -15,13 +15,13 @@ const HeaderDesk = () => {
               <a className="headerDesk__link" href="#start">Start</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#tattoos">Tattoo-Service</a>
+              <a className="headerDesk__link" href="#ueber">Über uns</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#piercings">Piercing-Service</a>
+              <a className="headerDesk__link" href="#tattoos">Tattoos</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#kontakt">Kontakt</a>
+              <a className="headerDesk__link" href="#piercings">Piercings</a>
             </li>
             <li className="headerDesk__item">
               <a className="headerDesk__link" href="#oeffnungszeiten">Öffnungszeiten</a>
