@@ -1,4 +1,5 @@
 @import "../../styles/config.scss";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 .gallery {
     display: flex;
@@ -11,30 +12,42 @@
     &__header-wrapper {
         display: flex;
     }
+}
 
-    &__wrapper {
-        text-align: center;
-        align-self: center;
-        width: 100%;
-        display: block;
-        align-items: center;
-        margin: 0;
+.image-gallery {
+    &-content
+    &-slide
+    &-image {
+        height: 30em;
+        margin-top: 3em;
+    }
 
-        @include lg {
-            width: 80%;
+    &-play-button {
+        display: none;
+    }
+
+    &-icon {
+        color: $dark;
+        filter: none;
+        
+        &:hover {
+            @include xs {
+                color: $dark;
+            }
+
+            @include md {
+                color: $red;
+            }
         }
     }
 
-    &__artist {
-        display: inline-block;
-        height: 15em;
-        width: fit-content;
-        margin: 0.5em;
-    }
+    &-thumbnail {
+        &.active {
+            border: 3px solid $red;
+        }
 
-    &__img {
-        height: 15em;
-        width: 12.5em;
-        object-fit: cover;
+        &:hover {
+            border: 3px solid $red;
+        }
     }
 }
