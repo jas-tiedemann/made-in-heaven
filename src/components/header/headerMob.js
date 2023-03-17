@@ -48,7 +48,7 @@ const HeaderMob = () => {
               <a className="headerMob__link" href="#ueber" onClick={handleCollapse}>Über uns</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#tattoos" onClick={handleCollapse}>Tattoos</a>
+              <a className="headerMob__link" href="#gallery-comp" onClick={handleCollapse}>Galerie</a>
             </li>
             <li className="headerMob__item">
               <a className="headerMob__link" href="#piercings" onClick={handleCollapse}>Piercings</a>
