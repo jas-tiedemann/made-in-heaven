@@ -2,7 +2,7 @@
 
 //variables
 
-$dark: #080808;
+$dark: #080d11;
 $light: #F0F0F0;
 $red: #820606;
 $specialFont: "Playfair Display";
@@ -81,12 +81,14 @@ $specialFont: "Playfair Display";
             font-family: $specialFont;
             font-size: 1.25em;
             margin: 1em auto;
+            border-bottom: 1px solid;
         }
         @include lg {
             text-transform: uppercase;
             font-family: $specialFont;
             font-size: 2em;
             margin: 1em auto;
+            border-bottom: 1px solid;
         }
     }
 
