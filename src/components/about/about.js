@@ -4,7 +4,7 @@ import "./about.scss";
 const About = () => {
 
   return (
-    <section className="about" id="ueber">
+    <section className="about" id="about">
         <h2 className="about__header header--medium">Wer wir sind und was dich erwartet</h2>
         <div className="about__info">
             <div className="about__column">

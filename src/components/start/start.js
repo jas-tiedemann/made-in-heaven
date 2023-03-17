@@ -1,6 +1,5 @@
 import React from "react";
 import "./start.scss";
-import "../../styles/config.scss";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 
@@ -16,7 +15,7 @@ const Start = () => {
             </div>
         </div>
         <button className="start__button-scroll">
-          <a className="start__arrow" href="#tattoos">
+          <a className="start__arrow" href="#about">
             <AiOutlineArrowDown className="icon--large arrow-scroll" />
           </a>
         </button>

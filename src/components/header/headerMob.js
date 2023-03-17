@@ -45,7 +45,7 @@ const HeaderMob = () => {
               <a className="headerMob__link" href="#start" onClick={handleCollapse}>Start</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#ueber" onClick={handleCollapse}>Über uns</a>
+              <a className="headerMob__link" href="#about" onClick={handleCollapse}>Über uns</a>
             </li>
             <li className="headerMob__item">
               <a className="headerMob__link" href="#gallery-comp" onClick={handleCollapse}>Galerie</a>
@@ -54,7 +54,7 @@ const HeaderMob = () => {
               <a className="headerMob__link" href="#piercings" onClick={handleCollapse}>Piercings</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#oeffnungszeiten" onClick={handleCollapse}>Öffnungszeiten</a>
+              <a className="headerMob__link" href="#opening-hours" onClick={handleCollapse}>Öffnungszeiten</a>
             </li>
             <li className="headerMob__item">
               <a className="headerMob__link" href="#maps" onClick={handleCollapse}><HiLocationMarker /></a>

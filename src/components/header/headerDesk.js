@@ -15,7 +15,7 @@ const HeaderDesk = () => {
               <a className="headerDesk__link" href="#start">Start</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#ueber">Über uns</a>
+              <a className="headerDesk__link" href="#about">Über uns</a>
             </li>
             <li className="headerDesk__item">
               <a className="headerDesk__link" href="#gallery-comp">Galerie</a>
@@ -24,7 +24,7 @@ const HeaderDesk = () => {
               <a className="headerDesk__link" href="#piercings">Piercings</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#oeffnungszeiten">Öffnungszeiten</a>
+              <a className="headerDesk__link" href="#opening-hours">Öffnungszeiten</a>
             </li>
             <li className="headerDesk__item">
               <a className="headerDesk__link " href="#maps"><HiLocationMarker /></a>
