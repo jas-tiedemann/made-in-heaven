@@ -1,5 +1,4 @@
 import "./App.scss";
-import "./styles/config.scss";
 import HeaderDesk from "./components/header/headerDesk";
 import HeaderMob from "./components/header/headerMob";
 import Start from "./components/start/start";

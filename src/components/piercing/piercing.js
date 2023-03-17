@@ -1,6 +1,5 @@
 import React from "react";
 import "./piercing.scss";
-import "../../styles/config.scss";
 import imgPiercing from "../../assets/images/piercing-ohr.jpg";
 
 const Piercing = () => {
