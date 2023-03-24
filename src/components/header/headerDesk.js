@@ -21,13 +21,16 @@ const HeaderDesk = () => {
               <a className="headerDesk__link" href="#gallery-comp">Galerie</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#piercings">Piercings</a>
+              <a className="headerDesk__link" href="#piercing-comp">Piercings</a>
+            </li>
+            <li className="headerDesk__item">
+              <a className="headerDesk__link" href="#appointment-comp">Termin buchen</a>
             </li>
             <li className="headerDesk__item">
               <a className="headerDesk__link" href="#opening-hours">Öffnungszeiten</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link " href="#maps"><HiLocationMarker /></a>
+              <a className="headerDesk__link" href="https://maps.google.com/?cid=17786562329460158763" target="_blank"><HiLocationMarker /></a>
             </li>
           </ul>
         </nav>

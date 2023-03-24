@@ -1,0 +1,37 @@
+@import "../../styles/config.scss";
+
+.appointment {
+    background: url("../../assets/images/bg-image-leaves.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-color: $dark;
+    color: $light;
+    height: 100vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__header {
+        width: fit-content;
+        margin: auto;
+    }
+
+    &__text {
+        text-align: center;
+        margin: 3em;
+    }
+
+    &__iframe {
+        @include xs {
+            width: 90%;
+            height: 60%;
+        }
+
+        @include lg {
+            width: 60%;
+        }
+        border: none;
+        margin: auto;
+    }
+}

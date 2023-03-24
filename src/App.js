@@ -8,6 +8,7 @@ import ScrollButton from "./components/scrollButton/scrollButton";
 import About from "./components/about/about";
 import Gallery from "./components/gallery/gallery";
 import Piercing from "./components/piercing/piercing";
+import Appointment from "./components/appointment/appointment";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -51,8 +52,9 @@ function App() {
         <ScrollButton />
         <About />
         <Gallery />
-        <Piercing />
-        {/*<Zeiten />*/}
+        <Piercing mobileView={mobileView} />
+        <Appointment />
+        <Zeiten />
       </main>
 
       <footer>
