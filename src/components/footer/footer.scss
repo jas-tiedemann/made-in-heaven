@@ -1,0 +1,35 @@
+@import "../../styles/config.scss";
+
+.footer {
+    @include xs {
+        display: flex;
+        flex-direction: column;
+        background-color: $dark;
+        color: $light
+    }
+
+    @include md {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__text {
+        @include xs {
+            margin: 1em;
+        }
+        
+        @include md {
+            margin: 2em;
+        }
+    }
+
+    &__anchor {
+        text-decoration: inherit;
+        color: inherit;
+        
+    }
+}
