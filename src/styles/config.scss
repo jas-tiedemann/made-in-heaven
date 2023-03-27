@@ -185,8 +185,15 @@ $specialFont: "Playfair Display";
 //icons
 
 .icon--large {
-    width: 3.5em;
-    height: 3.5em;
+    @include xs {
+        width: 2em;
+        height: 2em;
+    }
+
+    @include lg {
+        width: 3.5em;
+        height: 3.5em;
+    }
 }
 
 .icon--medium {

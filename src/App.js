@@ -2,7 +2,7 @@ import "./App.scss";
 import HeaderDesk from "./components/header/headerDesk";
 import HeaderMob from "./components/header/headerMob";
 import Start from "./components/start/start";
-import Zeiten from "./components/zeiten/zeiten";
+import Opening from "./components/opening/opening";
 import Footer from "./components/footer/footer";
 import ScrollButton from "./components/scrollButton/scrollButton";
 import About from "./components/about/about";
@@ -54,7 +54,7 @@ function App() {
         <Gallery />
         <Service mobileView={mobileView} />
         <Appointment />
-        <Zeiten />
+        <Opening />
       </main>
 
       <footer>
