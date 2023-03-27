@@ -1,0 +1,31 @@
+@import "../../styles/config.scss";
+
+
+.opening {
+    @include xs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: $light;
+        color: $dark;
+        align-items: center;
+        justify-content: center;
+        min-height: 15em;
+        padding-bottom: 5em;
+    }
+
+    @include lg {
+        width: 100%;
+        min-height: 25em;
+    }
+
+    &__time {
+        padding: 0 2em;
+        text-align: center;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+}
