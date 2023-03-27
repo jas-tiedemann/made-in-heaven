@@ -2,47 +2,19 @@
 
 
 .about {
-    background-color: $dark;
-    
-    color: $light;
-    padding: 5rem;
+    background-color: $light;
+    color: $dark;
+    padding: 1rem;
     
 
     &__header {
         width: fit-content;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
     }
 
-    &__info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        flex-direction: column;
-        align-self: center;
-
-        @include lg {
-            flex-direction: row;
-        }
-    }
-    
-    &__column {
-        @include xs {
-            width: 90%;
-        }
-
-        @include lg {
-            width: 30%;
-        }
-        margin: 2rem;
-    }
-    
-    &__image {
-        display: flex;
-        margin: 0;
-        object-fit: cover;
-        max-height: 30em;
-        width: 25%;
+    &__text {
+        max-width: 30em;
+        margin: 2em auto;
     }
 }
