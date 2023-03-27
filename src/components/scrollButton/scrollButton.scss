@@ -1,4 +1,17 @@
+@import "../../styles/config.scss";
+
 .scroll__wrapper {
+    @include xs {
+        position: fixed;
+        bottom: 1em;
+        left: 1em;
+        z-index: 1;
+    }
+
+    @include lg {
+        bottom: 2em;
+        left: 2em;
+    }
     position: fixed;
     bottom: 2em;
     left: 2em;
@@ -6,11 +19,18 @@
 }
 
 .scroll__button {
-    width: 5em;
-    height: 5em;
-    border-width: 0;
-    border-radius: 4em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    @include xs {
+        width: 3em;
+        height: 3em;
+        border-width: 0;
+        border-radius: 4em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    @include lg {
+        width: 5em;
+        height: 5em;
+    }
 }
 
 .scroll__button:hover {
