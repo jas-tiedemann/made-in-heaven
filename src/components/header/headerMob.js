@@ -51,7 +51,7 @@ const HeaderMob = () => {
               <a className="headerMob__link" href="#gallery-comp" onClick={handleCollapse}>Galerie</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#piercing-comp" onClick={handleCollapse}>Piercings</a>
+              <a className="headerMob__link" href="#service-comp" onClick={handleCollapse}>Service</a>
             </li>
             <li className="headerMob__item">
               <a className="headerMob__link" href="#appointment-comp" onClick={handleCollapse}>Termin buchen</a>
@@ -60,7 +60,7 @@ const HeaderMob = () => {
               <a className="headerMob__link" href="#opening-hours" onClick={handleCollapse}>Öffnungszeiten</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="https://maps.google.com/?cid=17786562329460158763" target="_blank" onClick={handleCollapse}><HiLocationMarker /></a>
+              <a className="headerMob__link" href="https://maps.google.com/?cid=17786562329460158763" rel="noopener" target="_blank" onClick={handleCollapse}><HiLocationMarker /></a>
             </li>
           </ul>
         </nav>

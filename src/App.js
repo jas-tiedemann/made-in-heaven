@@ -7,7 +7,7 @@ import Footer from "./components/footer/footer";
 import ScrollButton from "./components/scrollButton/scrollButton";
 import About from "./components/about/about";
 import Gallery from "./components/gallery/gallery";
-import Piercing from "./components/piercing/piercing";
+import Service from "./components/service/service";
 import Appointment from "./components/appointment/appointment";
 import { useState, useEffect } from "react";
 
@@ -52,7 +52,7 @@ function App() {
         <ScrollButton />
         <About />
         <Gallery />
-        <Piercing mobileView={mobileView} />
+        <Service mobileView={mobileView} />
         <Appointment />
         <Zeiten />
       </main>

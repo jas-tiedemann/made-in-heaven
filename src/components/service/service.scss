@@ -1,0 +1,65 @@
+@import "../../styles/config.scss";
+
+.service {
+    @include xs {
+        color: $light;
+        width: 100%;
+        margin: 5em 0;
+    }
+    
+    @include lg {
+        color: $light;
+        width: 100%;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    &-wrapper {
+        @include xs {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        @include lg {
+            flex-direction: row;
+        }
+
+    }
+
+    &__text {
+        @include xs {
+            display: flex;
+            flex-direction: column;
+            max-width: 30em;
+            margin: 2em auto;
+            padding: 1em;
+        }
+        
+        @include lg {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+        }
+    }
+
+    &__img {
+        @include xs {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 2em auto;
+        }
+
+        @include lg {
+            object-fit: contain;
+            max-width: 30em;
+        }
+        
+    }
+}
+
