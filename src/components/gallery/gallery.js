@@ -1,13 +1,12 @@
 import React from "react";
-import "./gallery.scss";
 import ImageGallery from "react-image-gallery";
-import img00 from "../../assets/images/tattoo-schnecke.jpg";
-import img01 from "../../assets/images/tattoo-blumen.jpg";
-import img02 from "../../assets/images/tattoo-schädel.jpg";
-import img03 from "../../assets/images/tattoo-waschbär.jpg";
-import img04 from "../../assets/images/tattoo-blumen-01.jpg";
-import img05 from "../../assets/images/tattoo-hirsch.jpg";
-import img06 from "../../assets/images/piercing-ohr.jpg";
+import img00 from "../../assets/images/tattoo-schnecke.webp";
+import img01 from "../../assets/images/tattoo-blumen.webp";
+import img02 from "../../assets/images/tattoo-schädel.webp";
+import img03 from "../../assets/images/tattoo-waschbär.webp";
+import img04 from "../../assets/images/tattoo-blumen-01.webp";
+import img05 from "../../assets/images/tattoo-hirsch.webp";
+import img06 from "../../assets/images/piercing-ohr.webp";
 
 const Gallery = () => {
 

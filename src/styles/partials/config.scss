@@ -1,0 +1,16 @@
+
+$breakpoints: (
+    "xs":  576px,
+    "s":  768px,
+    "m": 992px,
+    "l":  1280px,
+    "xl": 1500px
+) !default;
+
+//colors
+$dark: #080d11;
+$light: #F0F0F0;
+$red: #820606;
+
+//font
+$specialFont: "Playfair Display";
