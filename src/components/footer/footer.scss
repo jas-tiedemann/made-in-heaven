@@ -1,35 +1,72 @@
-@import "../../styles/config.scss";
-
 .footer {
-    @include xs {
-        display: flex;
-        flex-direction: column;
-        background-color: $dark;
-        color: $light
+    background-color: $dark;
+    color: $light;
+    height: fit-content;
+    padding: 2em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint("s") {
+        flex-direction: row;
     }
 
-    @include md {
+    &-wrapper {
+        max-width: 31em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__imprint-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    &__phone {
+        margin: 0 1.8em;
+    }
+
+    &__imprint_hidden {
+        display: none;
+    }
+
+    &__imprint {
         display: flex;
         flex-direction: row;
     }
 
     &__list {
         list-style: none;
-    }
+        padding: 0;
+        text-align: center;
 
-    &__text {
-        @include xs {
-            margin: 1em;
-        }
-        
-        @include md {
-            margin: 2em;
+        @include breakpoint("s") {
+            text-align: left;
         }
     }
 
     &__anchor {
         text-decoration: inherit;
-        color: inherit;
-        
+        color: inherit;   
+    }
+
+    &__button {
+        background-color: transparent;
+        color: $light;
+        border: none;
+        padding: 0;
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        margin: auto;
+        @include breakpoint("s") {
+            margin: 0;
+        }
+    }
+
+    &__icon {
+        filter: invert(1);
     }
 }
