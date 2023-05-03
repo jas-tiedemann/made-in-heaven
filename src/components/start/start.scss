@@ -1,34 +1,30 @@
-@import "../../styles/config.scss";
-@import "../../styles/utilities.scss";
-
-
 .start {
     display: flex;
     flex-direction: column;
-    background: url("../../assets/images/bg-image-leaves-2.jpg");
+    background: url("../../assets/images/bg-image-leaves.webp");
     background-attachment: fixed;
     background-position: center;
     justify-content: center;
     background-size: cover;
     color: $light;
     padding: 2em;
+    min-height: 100vh;
 
-    @include xs {
-        min-height: 100vh;
-    }
-
-    @include lg {
+    @include breakpoint("m") {
         min-height: calc(100vh - 170px);
     }
-    
-    &__willkommen {
+
+    &__welcome {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin: 0;
 
-        @include lg {
-            margin: 5em;
+        @include breakpoint("s") {
+            width: 50%;
+        }
+        @include breakpoint("l") {
+            margin: 1em;
         }
     }
 
@@ -41,21 +37,19 @@
 
         .book-appoi {
             display: block;
-            padding: 1rem;
-            width: 7rem;
+            padding: 1em;
+            width: 7em;
             text-decoration: none;
             color: $light;
             border-radius: 8px;
             
-            @include md {
+            @include breakpoint("m") {
                 &:hover {
                     background-color: $light;
                     color: $red;
                 }
             }
         }
-
-        
     }
 
     &__button-scroll {
@@ -67,22 +61,16 @@
         border: none;
         text-align: center;
         margin: 0;
-
-        .arrow-scroll {
-            @include md {
-                &:hover {
-                    color: $red;
-    
-                }
-            }
-        }
     }
 
-    
-    
-
-    &__arrow {
+    &__icon {
+        @include breakpoint("m") {
+            &:hover {
+                filter: opacity(60%) invert(1);;
+            }
+        }
         color: $light;
         text-decoration: none;
+        filter: invert(1);
     }
 }
