@@ -1,4 +1,4 @@
-@import "../../styles/config.scss";
+
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 .gallery {
@@ -7,7 +7,7 @@
     background-color: $dark;
     color: $light;
     width: 100%;
-    padding: 5em 0;
+    padding-top: 5em;
 
     &__header-wrapper {
         display: flex;
@@ -19,24 +19,22 @@
     &-slide
     &-image {
         height: 35em;
-        @include xs { 
-            margin-top: 0;
-        }
-        @include md { 
+        margin-top: 3em; 
+        margin-top: 0;
+        
+        @include breakpoint("m") { 
             margin-top: 3em;
         }
-        margin-top: 3em;
     }
 
     &-play-button {
         display: none;
     }
 
-    &-right-nav {
-        @include xs {
-            display: none;
-        }
-        @include md {
+    &-right-nav, &-left-nav {
+        display: none;
+
+        @include breakpoint("m") {
             display: inline;
             color: $light;
             filter: none;
@@ -45,23 +43,14 @@
                 color: $red;
             }
         }
-        
+    }
+
+    &-right-nav {
+        right: 14%;
     }
 
     &-left-nav {
-        @include xs {
-            display: none;
-        }
-        @include md {
-            display: inline;
-            color: $light;
-            filter: none;
-        
-            &:hover {
-                color: $red;
-            }
-        }
-        
+        left: 14%;
     }
 
     &-fullscreen-button {
@@ -69,11 +58,7 @@
     }
 
     &-thumbnail {
-        &.active {
-            border: 3px solid $red;
-        }
-
-        &:hover {
+        &.active, &:hover {
             border: 3px solid $red;
         }
     }
