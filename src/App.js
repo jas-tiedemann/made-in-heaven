@@ -1,4 +1,3 @@
-import "./App.scss";
 import HeaderDesk from "./components/header/headerDesk";
 import HeaderMob from "./components/header/headerMob";
 import Start from "./components/start/start";
@@ -6,6 +5,7 @@ import Opening from "./components/opening/opening";
 import Footer from "./components/footer/footer";
 import ScrollButton from "./components/scrollButton/scrollButton";
 import About from "./components/about/about";
+import Team from "./components/team/team";
 import Gallery from "./components/gallery/gallery";
 import Service from "./components/service/service";
 import Appointment from "./components/appointment/appointment";
@@ -51,7 +51,8 @@ function App() {
         <Start />
         <ScrollButton />
         <About />
-        <Gallery />
+        <Team />
+        {/* <Gallery /> */}
         <Service mobileView={mobileView} />
         <Appointment />
         <Opening />
