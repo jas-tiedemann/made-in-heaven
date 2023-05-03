@@ -1,7 +1,6 @@
 import React from "react";
-import "./header.scss";
-import headerImage from "../../assets/images/logo.png";
-import { HiLocationMarker } from "react-icons/hi";
+import headerImage from "../../assets/images/logo-small.webp";
+import location from "../../assets/vectors/location.svg";
 
 const HeaderDesk = () => {
   return (
@@ -30,7 +29,7 @@ const HeaderDesk = () => {
               <a className="headerDesk__link" href="#opening-hours">Öffnungszeiten</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="https://maps.google.com/?cid=17786562329460158763" rel="noopener" target="_blank"><HiLocationMarker /></a>
+              <a className="headerDesk__link" href="https://maps.google.com/?cid=17786562329460158763" rel="noreferrer" target="_blank"><img src={location} alt="location" className="icon--medium"></img></a>
             </li>
           </ul>
         </nav>

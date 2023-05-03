@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "./scrollButton.scss";
-import { AiOutlineArrowUp } from "react-icons/ai";
+import arrowUpScroll from "../../assets/vectors/arrow-up-scroll.svg";
 
 const ScrollButton = () => {
     const [visible, setVisible] = useState(false);
-
-    
 
     const scrollToTop = () =>{
         const top = document.getElementById("start");
@@ -28,7 +25,7 @@ const ScrollButton = () => {
     return (
         <div className="scroll__wrapper">
             <button className="scroll__button" onClick={scrollToTop} style={{display: visible ? "inline" : "none"}}>
-                <AiOutlineArrowUp className="icon--large" />
+                <img src={arrowUpScroll} alt="arrow-up-scroll" className="icon--large"></img>
             </button>
         </div>
     );
