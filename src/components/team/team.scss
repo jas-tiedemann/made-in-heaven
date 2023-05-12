@@ -24,9 +24,14 @@
     &-scroller {
         display: flex;
         margin: 0 auto;
+        padding: 0 20%;
         height: auto;
         width: fit-content;
         justify-content: center;
+
+        @include breakpoint("s") {
+            padding: 0;
+        }
 
         @include breakpoint("xl") {
             display: grid;
