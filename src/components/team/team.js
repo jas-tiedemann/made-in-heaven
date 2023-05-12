@@ -22,114 +22,34 @@ const Team = () => {
 
     const teamInfo = [
         {name: "Angi", imgPerson: imgPerson00, pronouns: "sie/ihr", instagram: "toller/link", position: "Tattoo, Azubi und Shopmanagerin", imgArray:
-            [
-            {original: img00, thumbnail: img00},
-            {original: img01, thumbnail: img01},
-            {original: img02, thumbnail: img02},
-            {original: img03, thumbnail: img03},
-            {original: img04, thumbnail: img04},
-            {original: img05, thumbnail: img05},
-            {original: img06, thumbnail: img06}
-            ]
+            [img00, img01, img02, img03, img04, img05, img06]
         },
         {name: "Ani", imgPerson: imgPerson08, pronouns: "sie/ihr", instagram: "toller/link", position: "Tattoo", imgArray:
-        [
-        {original: img00, thumbnail: img00},
-        {original: img01, thumbnail: img01},
-        {original: img02, thumbnail: img02},
-        {original: img03, thumbnail: img03},
-        {original: img04, thumbnail: img04},
-        {original: img05, thumbnail: img05},
-        {original: img06, thumbnail: img06}
-        ]
+            [img00, img01, img02, img03, img04, img05, img06]
         },
         {name: "Elise", imgPerson: imgPerson02, pronouns: "sie/ihr", instagram: "toller/link", position: "Tattoo", imgArray:
-            [
-            {original: img00, thumbnail: img00},
-            {original: img01, thumbnail: img01},
-            {original: img02, thumbnail: img02},
-            {original: img03, thumbnail: img03},
-            {original: img04, thumbnail: img04},
-            {original: img05, thumbnail: img05},
-            {original: img06, thumbnail: img06}
-            ]
+            [img00, img01, img02, img03, img04, img05, img06]
         },
         {name: "Elliot", imgPerson: imgPerson03, pronouns: "er/ihm", instagram: "toller/link", position: "Tattoo", imgArray:
-            [
-            {original: img00, thumbnail: img00},
-            {original: img01, thumbnail: img01},
-            {original: img02, thumbnail: img02},
-            {original: img03, thumbnail: img03},
-            {original: img04, thumbnail: img04},
-            {original: img05, thumbnail: img05},
-            {original: img06, thumbnail: img06}
-            ]
+            [img00, img01, img02, img03, img04, img05, img06]
         },
         {name: "Kathi", imgPerson: imgPerson04, pronouns: "sie/ihr", instagram: "toller/link", position: "Tattoo und Piercing", imgArray:
-            [
-            {original: img00, thumbnail: img00},
-            {original: img01, thumbnail: img01},
-            {original: img02, thumbnail: img02},
-            {original: img03, thumbnail: img03},
-            {original: img04, thumbnail: img04},
-            {original: img05, thumbnail: img05},
-            {original: img06, thumbnail: img06}
-            ]
+            [img00, img01, img02, img03, img04, img05, img06]
         },
         {name: "Shino", imgPerson: imgPerson05, pronouns: "sie/they/er", instagram: "toller/link", position: "Tattoo Azubi", imgArray:
-            [
-            {original: img00, thumbnail: img00},
-            {original: img01, thumbnail: img01},
-            {original: img02, thumbnail: img02},
-            {original: img03, thumbnail: img03},
-            {original: img04, thumbnail: img04},
-            {original: img05, thumbnail: img05},
-            {original: img06, thumbnail: img06}
-            ]
+            [img00, img01, img02, img03, img04, img05, img06]
         },
         {name: "Lydia", imgPerson: imgPerson06, pronouns: "sie/ihr", instagram: "toller/link", position: "Tattoo", imgArray:
-            [
-            {original: img00, thumbnail: img00},
-            {original: img01, thumbnail: img01},
-            {original: img02, thumbnail: img02},
-            {original: img03, thumbnail: img03},
-            {original: img04, thumbnail: img04},
-            {original: img05, thumbnail: img05},
-            {original: img06, thumbnail: img06}
-            ]
+            [img00, img01, img02, img03, img04, img05, img06]
         },
         {name: "Mareike", imgPerson: imgPerson07, pronouns: "sie/ihr", instagram: "toller/link", position: "Tattoo", imgArray:
-        [
-        {original: img00, thumbnail: img00},
-        {original: img01, thumbnail: img01},
-        {original: img02, thumbnail: img02},
-        {original: img03, thumbnail: img03},
-        {original: img04, thumbnail: img04},
-        {original: img05, thumbnail: img05},
-        {original: img06, thumbnail: img06}
-        ]
+        [img00, img01, img02, img03, img04, img05, img06]
         },
         {name: "Slim", imgPerson: imgPerson08, pronouns: "sie/ihnen", instagram: "toller/link", position: "Piercing", imgArray:
-            [
-            {original: img00, thumbnail: img00},
-            {original: img01, thumbnail: img01},
-            {original: img02, thumbnail: img02},
-            {original: img03, thumbnail: img03},
-            {original: img04, thumbnail: img04},
-            {original: img05, thumbnail: img05},
-            {original: img06, thumbnail: img06}
-            ]
+            [img00, img01, img02, img03, img04, img05, img06]
         },
         {name: "Toni", imgPerson: imgPerson09, pronouns: "sie/ihr", instagram: "toller/link", position: "Tattoo", imgArray:
-            [
-            {original: img00, thumbnail: img00},
-            {original: img01, thumbnail: img01},
-            {original: img02, thumbnail: img02},
-            {original: img03, thumbnail: img03},
-            {original: img04, thumbnail: img04},
-            {original: img05, thumbnail: img05},
-            {original: img06, thumbnail: img06}
-            ]
+            [img00, img01, img02, img03, img04, img05, img06]
         }
     ];
 
@@ -137,19 +57,21 @@ const Team = () => {
         <section className="team" id="team">
             <h2 className="header--medium team__header">Unser Team</h2>
             <div className="team-wrapper">
-                {teamInfo.map(x => {
-                    return (
-                        <Artist
-                            key={"key-" + x.name.toLowerCase()}
-                            name={x.name}
-                            imgPerson={x.imgPerson}
-                            pronouns={x.pronouns}
-                            instagram={x.instagram}
-                            position={x.position}
-                            imgArray={x.imgArray}
-                        />
-                    );
-                })}
+                <div className="team-scroller">
+                    {teamInfo.map(x => {
+                        return (
+                            <Artist
+                                key={"key-" + x.name.toLowerCase()}
+                                name={x.name}
+                                imgPerson={x.imgPerson}
+                                pronouns={x.pronouns}
+                                instagram={x.instagram}
+                                position={x.position}
+                                imgArray={x.imgArray}
+                            />
+                        );
+                    })}
+                </div>
             </div>
         </section>
     );

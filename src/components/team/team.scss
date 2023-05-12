@@ -1,6 +1,7 @@
 .team {
     padding: 5em 0;
     background: url("../../assets/images/bg-image-leaves.webp");
+    background-size: cover;
     background-attachment: fixed;
 
     &__header {
@@ -10,24 +11,28 @@
     }
 
     &-wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 30%);
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: 5em;
+        overflow-x: scroll;
 
-        @include breakpoint("s") {
-            grid-template-columns: repeat(3, 30%);
+        @include breakpoint("xl") {
+            overflow: hidden;
         }
+    }
 
-        @include breakpoint("m") {
-            grid-template-columns: repeat(4, 24%);
-        }
-
-        @include breakpoint("l") {
-            grid-template-columns: repeat(5, 15%);
-        }
-
+    &-scroller {
+        display: flex;
+        margin: 0 auto;
+        height: auto;
+        width: fit-content;
         justify-content: center;
-        margin: auto;
-        background-color: rgba(212, 212, 212, 0.1);
-        backdrop-filter: blur(3px);
+
+        @include breakpoint("xl") {
+            display: grid;
+            grid-template-columns: repeat(5, 15%);
+            overflow: hidden;
+            height: fit-content;
+        }
     }
 }
