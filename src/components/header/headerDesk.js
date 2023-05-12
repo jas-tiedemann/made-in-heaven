@@ -17,7 +17,7 @@ const HeaderDesk = () => {
               <a className="headerDesk__link" href="#about">Über uns</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#gallery-comp">Galerie</a>
+              <a className="headerDesk__link" href="#team">Team</a>
             </li>
             <li className="headerDesk__item">
               <a className="headerDesk__link" href="#service-comp">Service</a>
