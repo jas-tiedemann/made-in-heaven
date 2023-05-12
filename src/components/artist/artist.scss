@@ -1,7 +1,18 @@
 .artist {
     color: $dark;
     display: flex;
+    position: relative;
     justify-content: center;
+    margin: 0 0.5em;
+
+    @include breakpoint(m) {
+        margin: 0 1em;
+    }
+
+    @include breakpoint(xl) {
+        margin: 0;
+    }
+    
 
     &-wrapper_collapsed {
         color: $light;
@@ -11,47 +22,94 @@
 
     &__image-wrapper {
         width: fit-content;
-        margin: 2em;
+        margin: 1em;
     }
 
     &__link {
-        &:hover > img {
-            opacity: 0.5;
+        & > img {
+            opacity: 0.8;
         }
-
-        &:hover > p {
+        & > p {
             display: inline;
         }
-        
+        color: $light;
+        @include breakpoint("m") {
+            & > img {
+                opacity: 1;
+            }
+            & > p {
+                display: none;
+            }
+
+            &:hover > img {
+                opacity: 0.8;
+            }
+    
+            &:hover > p {
+                display: inline;
+            }
+        }
     }
 
     &__portrait_collapsed {
-        width: 100%;
+        width: 50vw;
         object-fit: cover;
+
+        @include breakpoint("s") {
+            width: 30vw;
+        }
+
+        @include breakpoint("s") {
+            width: 25vw;
+        }
+
+        @include breakpoint("xl") {
+            width: 100%;
+        }
     }
 
     &-wrapper_extended {
-        padding: 2.9em;
-        background-color: rgba(65, 65, 65, 0.9);
-        width: 90%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        right: 0;
+        position: fixed;
         top: 0;
-        vertical-align: center;
-        margin: 0 auto;
-        z-index: 1;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $dark;
+        height: 100vh;
+        width: 100vw;
+        z-index: 2;
+    }
+
+    &__button {
+        margin: 1em;
+        background-color: $light;
+        border: none;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    &__portrait-wrapper {
+        height: 40vh;
     }
 
     &__portrait_extended {
-        width: 20em;
-        border-radius: 10px;
+        height: 27vh;
+        margin: 1em;
+
+        @include breakpoint(s) {
+            height: 30vh;
+        }
     }
 
     &__text {
+        color: $light;
+
         &_extended {
-            color: $light;
+            margin: 0.5em 0;
+
+            @include breakpoint(s) {
+                margin: 1em 0;
+            }
         }
 
         &_collapsed {
@@ -60,17 +118,22 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+            background-color: rgba($color: $dark, $alpha: 0.7);
         }
     }
 
     &__text-wrapper {
-        margin: 1em;
+        padding: 1em;
+        width: 40%;
     }
 
     &__info-wrapper {
         display: flex;
         justify-content: center;
         width: fit-content;
+        max-height: 47.5vh;
         margin: auto;
     }
 
@@ -78,22 +141,20 @@
         align-items: flex-end;
     }
 
-    &__gallery-wrapper {
+    &__image-wrapper {
         display: flex;
         margin: auto;
         max-width: 90%;
-        height: fit-content;
+        height: 45vh;
         flex-wrap: nowrap;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
     }
 
     &__image {
-        margin: 1em;
-        width: 15em;
-        height: 20em;
+        margin: 0 1em;
+        height: 40vh;
         object-fit: cover;
-        margin-bottom: 2em;
         border-radius: 10px;
         scroll-snap-align: center;
     }
