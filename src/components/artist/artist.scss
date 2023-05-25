@@ -26,17 +26,12 @@
     }
 
     &__link {
-        & > img {
-            opacity: 0.8;
-        }
         & > p {
             display: inline;
         }
         color: $light;
-        @include breakpoint("m") {
-            & > img {
-                opacity: 1;
-            }
+        
+        @include breakpoint("xl") {
             & > p {
                 display: none;
             }
@@ -52,19 +47,17 @@
     }
 
     &__portrait_collapsed {
-        width: 50vw;
+        width: 70vw;
         object-fit: cover;
+        border-radius: 8px;
 
         @include breakpoint("s") {
-            width: 30vw;
-        }
-
-        @include breakpoint("s") {
-            width: 25vw;
+            width: 35vw;
         }
 
         @include breakpoint("xl") {
             width: 100%;
+            border-radius: 0;
         }
     }
 
@@ -107,7 +100,7 @@
         &_extended {
             margin: 0.5em 0;
 
-            @include breakpoint(s) {
+            @include breakpoint("s") {
                 margin: 1em 0;
             }
         }

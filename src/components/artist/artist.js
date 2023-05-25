@@ -25,7 +25,7 @@ const Artist = ( {name, imgPerson, pronouns, instagram, position, imgArray} ) =>
     <div className="artist-wrapper_collapsed">
       <a className="artist__link" href="#artist" onClick={displayExtended}>
         <img className="artist__portrait_collapsed" src={imgPerson} alt="person-img"></img>
-        <p className="artist__text artist__text_collapsed  header--small">{name}</p>
+        <p className="artist__text artist__text_collapsed  header--medium">{name}</p>
       </a>
     </div>
   );
