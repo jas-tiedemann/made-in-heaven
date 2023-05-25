@@ -52,7 +52,7 @@ function App() {
         <ScrollButton />
         <About />
         <Team />
-        {/* <Gallery /> */}
+        <Gallery />
         <Service mobileView={mobileView} />
         <Appointment />
         <Opening />
