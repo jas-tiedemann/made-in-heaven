@@ -9,14 +9,15 @@
 @import "./partials/global.scss";
 
 // blocks
-@import "../components/about/about.scss";
-@import "../components/appointment/appointment.scss";
-@import "../components/footer/footer.scss";
-@import "../components/gallery/gallery.scss";
-@import "../components/header/header.scss";
-@import "../components/opening/opening.scss";
 @import "../components/scrollButton/scrollButton.scss";
-@import "../components/service/service.scss";
-@import "../components/start/start.scss";
+@import "../components/button/button.scss";
 @import "../components/artist/artist.scss";
-@import "../components/team/team.scss";
+@import "../pages/about/about.scss";
+@import "../pages/appointment/appointment.scss";
+@import "../pages/footer/footer.scss";
+@import "../pages/gallery/gallery.scss";
+@import "../pages/header/header.scss";
+@import "../pages/opening/opening.scss";
+@import "../pages/service/service.scss";
+@import "../pages/start/start.scss";
+@import "../pages/team/team.scss";
