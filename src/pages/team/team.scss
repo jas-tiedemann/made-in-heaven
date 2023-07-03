@@ -3,6 +3,7 @@
     background: url("../../assets/images/bg-image-leaves.webp");
     background-size: cover;
     background-attachment: fixed;
+    
 
     &__header {
         color: $light;
@@ -11,32 +12,20 @@
     }
 
     &-wrapper {
-        width: 90vw;
         margin: 0 auto;
         margin-top: 5em;
-        overflow-x: scroll;
-
-        @include breakpoint("xl") {
-            overflow: hidden;
-        }
-    }
-
-    &-scroller {
         display: flex;
-        margin: 0 auto;
         padding: 0 1.75em;
-        height: auto;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
 
-        @include breakpoint("s") {
-            padding: 0;
-        }
-
-        @include breakpoint("xl") {
+        @include breakpoint("l") {
             display: grid;
-            grid-template-columns: repeat(5, 15%);
+            grid-template-columns: repeat(3, 30%);
             overflow: hidden;
             height: fit-content;
             justify-content: center;
+            width: 70em;
         }
     }
 }

@@ -56,26 +56,4 @@
             }
         }
     }
-
-    &__button-scroll {
-        position: absolute;
-        bottom: 10px;
-        align-self: center;
-        background-color: transparent;
-        color: $light;
-        border: none;
-        text-align: center;
-        margin: 0;
-    }
-
-    &__icon {
-        @include breakpoint("m") {
-            &:hover {
-                filter: opacity(60%) invert(1);;
-            }
-        }
-        color: $light;
-        text-decoration: none;
-        filter: invert(1);
-    }
 }

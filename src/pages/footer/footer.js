@@ -5,7 +5,7 @@ import arrowDown from "../../assets/vectors/arrow-down.svg";
 const Footer = () => {
 
   const [extended, setExtended] = useState(false);
-  
+
   const handleExtend = () => {
     setExtended(true);
   }
@@ -18,14 +18,18 @@ const Footer = () => {
     if (extended) {
       return (
         <button onClick={handleCollapse} className="footer__button text">
-          <span className="text">Impressum</span>
+          <span className="footer__icon-wrapper text">
+            Impressum
+          </span>
           <img src={arrowUp} alt="arrow-up" className="footer__icon icon--medium"></img>
         </button>
       );
     } else {
       return (
         <button onClick={handleExtend} className="footer__button text">
-          <span className="text">Impressum</span>
+          <span className="footer__icon-wrapper text">
+            Impressum
+          </span>
           <img src={arrowDown} alt="arrow-down" className="footer__icon icon--medium"></img>
         </button>
       );
@@ -33,12 +37,7 @@ const Footer = () => {
   }
 
   return (
-    <section className="footer standard--center">
-      <div className="footer__phone">
-        <p className="footer__text text">Telefon
-          <a className="footer__anchor text" href="tel:01573 6824997">: 01573 6824997</a>
-        </p>
-      </div>
+    <section className="footer">
       <div className="footer__imprint-wrapper">
         <div className="footer__collapse">
           {displayButton()}
@@ -50,9 +49,15 @@ const Footer = () => {
             <li>Dielingerstraße 42a</li>
             <li>49074 Osnabrück</li>
             <li>Einzelunternehmer</li>
+            <li>Steuernummer: 66/134/01300</li>
             <li><a className="footer__anchor" href="mailto:madeinheaven.pt@outlook.de">madeinheaven.pt@outlook.de</a></li>
           </ul>
         </div>
+      </div>
+      <div className="footer__phone">
+        <p className="footer__text text">Telefon
+          <a className="footer__anchor text" href="tel:01573 6824997">: 01573 6824997</a>
+        </p>
       </div>
     </section>
   );

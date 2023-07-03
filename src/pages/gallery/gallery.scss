@@ -33,8 +33,9 @@
 
     &-right-nav, &-left-nav {
         display: none;
+        z-index: 1;
 
-        @include breakpoint("m") {
+        @include breakpoint("l") {
             display: inline;
             color: $light;
             filter: none;
@@ -46,11 +47,11 @@
     }
 
     &-right-nav {
-        right: 14%;
+        right: 10%;
     }
 
     &-left-nav {
-        left: 14%;
+        left: 10%;
     }
 
     &-fullscreen-button {

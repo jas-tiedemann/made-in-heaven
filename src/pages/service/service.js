@@ -1,5 +1,5 @@
 import React from "react";
-import img00 from "../../assets/images/piercing-gesicht-mb.jpg";
+import img00 from "../../assets/images/service-image00.webp";
 
 const Service = () => {
   return (

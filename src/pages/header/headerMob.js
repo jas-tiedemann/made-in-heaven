@@ -36,13 +36,16 @@ const HeaderMob = () => {
           </button>
           <ul className="headerMob__list">
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#start" onClick={handleCollapse}>Start</a>
+              <a className="headerMob__link" href="#start-comp" onClick={handleCollapse}>Start</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#about" onClick={handleCollapse}>Über uns</a>
+              <a className="headerMob__link" href="#about-comp" onClick={handleCollapse}>Über uns</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#team" onClick={handleCollapse}>Team</a>
+              <a className="headerMob__link" href="#team-comp" onClick={handleCollapse}>Team</a>
+            </li>
+            <li className="headerMob__item">
+              <a className="headerMob__link" href="#gallery-comp" onClick={handleCollapse}>Galerie</a>
             </li>
             <li className="headerMob__item">
               <a className="headerMob__link" href="#service-comp" onClick={handleCollapse}>Service</a>
@@ -51,7 +54,7 @@ const HeaderMob = () => {
               <a className="headerMob__link" href="#appointment-comp" onClick={handleCollapse}>Termin buchen</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#opening-hours" onClick={handleCollapse}>Öffnungszeiten</a>
+              <a className="headerMob__link" href="#opening-comp" onClick={handleCollapse}>Öffnungszeiten</a>
             </li>
             <li className="headerMob__item">
               <a className="headerMob__link" href="https://maps.google.com/?cid=17786562329460158763" rel="noreferrer" target="_blank" onClick={handleCollapse}><img src={location} alt="location" className="icon--medium"></img></a>

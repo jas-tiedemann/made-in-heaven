@@ -1,14 +1,14 @@
-import HeaderDesk from "./components/header/headerDesk";
-import HeaderMob from "./components/header/headerMob";
-import Start from "./components/start/start";
-import Opening from "./components/opening/opening";
-import Footer from "./components/footer/footer";
+import HeaderDesk from "./pages/header/headerDesk";
+import HeaderMob from "./pages/header/headerMob";
+import Start from "./pages/start/start";
+import Opening from "./pages/opening/opening";
 import ScrollButton from "./components/scrollButton/scrollButton";
-import About from "./components/about/about";
-import Team from "./components/team/team";
-import Gallery from "./components/gallery/gallery";
-import Service from "./components/service/service";
-import Appointment from "./components/appointment/appointment";
+import Footer from "./pages/footer/footer";
+import About from "./pages/about/about";
+import Team from "./pages/team/team";
+import Gallery from "./pages/gallery/gallery";
+import Service from "./pages/service/service";
+import Appointment from "./pages/appointment/appointment";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -49,13 +49,13 @@ function App() {
 
       <main>
         <Start />
-        <ScrollButton />
         <About />
         <Team />
         <Gallery />
         <Service mobileView={mobileView} />
         <Appointment />
         <Opening />
+        <ScrollButton />
       </main>
 
       <footer>

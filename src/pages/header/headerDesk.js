@@ -11,13 +11,16 @@ const HeaderDesk = () => {
         <nav className="headerDesk__nav">
           <ul className="headerDesk__list">
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#start">Start</a>
+              <a className="headerDesk__link" href="#start-comp">Start</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#about">Über uns</a>
+              <a className="headerDesk__link" href="#about-comp">Über uns</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#team">Team</a>
+              <a className="headerDesk__link" href="#team-comp">Team</a>
+            </li>
+            <li className="headerDesk__item">
+              <a className="headerDesk__link" href="#gallery-comp">Galerie</a>
             </li>
             <li className="headerDesk__item">
               <a className="headerDesk__link" href="#service-comp">Service</a>
@@ -26,7 +29,7 @@ const HeaderDesk = () => {
               <a className="headerDesk__link" href="#appointment-comp">Termin buchen</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#opening-hours">Öffnungszeiten</a>
+              <a className="headerDesk__link" href="#opening-comp">Öffnungszeiten</a>
             </li>
             <li className="headerDesk__item">
               <a className="headerDesk__link" href="https://maps.google.com/?cid=17786562329460158763" rel="noreferrer" target="_blank"><img src={location} alt="location" className="icon--medium"></img></a>

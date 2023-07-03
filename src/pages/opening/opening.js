@@ -2,7 +2,7 @@ import React from "react";
 
 const Opening = () => {
   return (
-    <section className="opening" id="opening-hours">
+    <section className="opening" id="opening-comp">
         <h2 className="header--medium">Öffnungszeiten</h2>
         <p className="header--small">Meldet euch!</p>
         <div className="opening__wrapper">

@@ -1,0 +1,73 @@
+
+.appointment {
+    background: url("../../assets/images/appointment-image00.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: $dark;
+    color: $light;
+    min-height: 45em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__header-wrapper {
+        background-color: rgba($color: $dark, $alpha: 0.6);
+        padding-top: 2em;
+    }
+
+    &__header {
+        width: fit-content;
+        margin: 1em auto;
+        margin-top: 0;
+    }
+
+    &-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba($color: $dark, $alpha: 0.6);
+        padding: 2em;
+        margin: 0;
+
+        @include breakpoint("m") {
+            flex-direction: row;
+            margin: 0;
+        }
+    }
+
+    &__sect {
+        margin: 1em auto;
+        text-align: center;
+
+        @include breakpoint("m") {
+            width: 25%;
+            margin: 3em;
+        }
+    }
+
+    &__text {
+        text-align: center;
+    }
+
+    &__btn {
+        background-color: $red;
+        color: $light;
+        border: none;
+        width: fit-content;
+        height: 3em;
+        text-align: center;
+    }
+    
+    &__anchor {
+        width: 7em;
+        text-decoration: none;
+        color: $light;
+        border-radius: 8px;
+    }
+
+    &__button-wrapper {
+        width: fit-content;
+        margin: auto;
+    }
+}
