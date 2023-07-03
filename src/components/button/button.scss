@@ -1,0 +1,23 @@
+.button {
+    background-color: $red;
+    color: $light;
+    border: none;
+    width: fit-content;
+    text-align: center;
+
+    &__anchor {
+        display: block;
+        padding: 1em;
+        width: 7em;
+        text-decoration: none;
+        color: $light;
+        border-radius: 8px;
+        
+        @include breakpoint("m") {
+            &:hover {
+                background-color: $light;
+                color: $red;
+            }
+        }
+    }
+}
