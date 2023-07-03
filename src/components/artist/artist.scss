@@ -3,21 +3,43 @@
     display: flex;
     position: relative;
     justify-content: center;
-    margin: 0 0.5em;
+    margin: 0 0.25em;
+    scroll-snap-align: center;
+    
 
-    @include breakpoint(m) {
+    @include breakpoint("s") {
+        margin: 0 0.75em;
+    }
+
+    @include breakpoint("m") {
         margin: 0 1em;
     }
 
-    @include breakpoint(xl) {
+    @include breakpoint("l") {
         margin: 0;
+        height: 30em;
     }
     
 
     &-wrapper_collapsed {
+        width: 15em;
+        height: 22em;
         color: $light;
         margin: 0;
-        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+
+        @include breakpoint("s") {
+            width: 20em;
+            height: 30em;
+        }
+
+        @include breakpoint("l") {
+            border-radius: 0;
+            padding: 0;
+            width: 25em;
+            height: auto;
+        }
     }
 
     &__image-wrapper {
@@ -31,34 +53,24 @@
         }
         color: $light;
         
-        @include breakpoint("xl") {
-            & > p {
+        @include breakpoint("l") {
+            & > div > p {
                 display: none;
             }
 
             &:hover > img {
-                opacity: 0.8;
+                filter: blur(2px);
+                transition: 0.5s;
             }
     
-            &:hover > p {
+            &:hover > div > p {
                 display: inline;
             }
         }
     }
 
     &__portrait_collapsed {
-        width: 70vw;
-        object-fit: cover;
-        border-radius: 8px;
-
-        @include breakpoint("s") {
-            width: 35vw;
-        }
-
-        @include breakpoint("xl") {
-            width: 100%;
-            border-radius: 0;
-        }
+        width: 100%;
     }
 
     &-wrapper_extended {
@@ -89,7 +101,7 @@
         height: 27vh;
         margin: 1em;
 
-        @include breakpoint(s) {
+        @include breakpoint("s") {
             height: 30vh;
         }
     }
@@ -106,18 +118,30 @@
         }
 
         &_collapsed {
-            display: none;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             width: 100%;
             text-align: center;
-            background-color: rgba($color: $dark, $alpha: 0.7);
         }
     }
 
-    &__text-wrapper {
+    &__text-wrapper_collapsed {
+        display: none;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -10%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba($color: $dark, $alpha: 0.4);
+    }
+
+    &__text_collapsed {
+        text-align: center;
+    }
+
+    &__text-wrapper_extended {
         padding: 1em;
         width: 40%;
     }
