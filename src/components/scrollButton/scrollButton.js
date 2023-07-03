@@ -23,11 +23,12 @@ const ScrollButton = () => {
     }, []);
 
     return (
-        <div className="scroll__wrapper">
+        <div className="scroll-wrapper">
             <button className="scroll__button" onClick={scrollToTop} style={{display: visible ? "inline" : "none"}}>
                 <img src={arrowUpScroll} alt="arrow-up-scroll" className="icon--large"></img>
             </button>
         </div>
     );
-};
+}
+
 export default ScrollButton;
