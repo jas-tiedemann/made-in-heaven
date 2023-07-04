@@ -1,0 +1,8 @@
+{
+  "short_name": "Made-In-Heaven",
+  "name": "Made-In-Heaven Website",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
