@@ -1,5 +1,6 @@
 {
   "name": "made-in-heaven",
+  "homepage": "https://jas-tiedemann.github.io/made-in-heaven",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -6,19 +6,19 @@ const Artist = (props) => {
   const [extended, setExtended] = useState(false);
 
   const displayComp = (extendedComp, collapsedComp) => {
-      if (extended) {
-          return extendedComp;
-      } else {
-          return collapsedComp;
-      }
+    if (extended) {
+      return extendedComp;
+    } else {
+      return collapsedComp;
+    }
   }
 
   const displayExtended = () => {
-      setExtended(true);
+    setExtended(true);
   }
 
   const displayCollapsed = () => {
-      setExtended(false);
+    setExtended(false);
   }
 
   const collapsedComp = (
