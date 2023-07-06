@@ -4,7 +4,7 @@ import img00 from "../../assets/images/service-image00.webp";
 const Service = () => {
   return (
     <section className="service" id="service-comp">
-      <h2 className="service__header header--medium">Unser Service</h2>
+      <h2 className="service__header header header--medium">Unser Service</h2>
       <div className="service-wrapper">
         <div className="service__text">
           <article className="service__article_piercing"> 

@@ -26,8 +26,8 @@ const Artist = (props) => {
       <a className="artist__link" href="#artist" onClick={displayExtended}>
         <img className="artist__portrait_collapsed" src={props.imgPerson} alt="person-img"></img>
         <div className="artist__text-wrapper_collapsed">
-          <p className="artist__text artist__text_collapsed header--small">{props.name}</p>
-          <p className="artist__text artist__text_collapsed text--medium">{props.position}</p>
+          <p className="artist__text artist__text_collapsed header header--small">{props.name}</p>
+          <p className="artist__text artist__text_collapsed">{props.position}</p>
         </div>
       </a>
     </div>

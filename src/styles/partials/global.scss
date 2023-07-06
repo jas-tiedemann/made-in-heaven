@@ -3,9 +3,10 @@
 }
 
 .header {
+    text-transform: uppercase;
+    font-family: $specialFont;
+
     &--large {
-        text-transform: uppercase;
-        font-family: $specialFont;
         width: fit-content;
         font-size: 2em;
 
@@ -16,14 +17,9 @@
         @include breakpoint("m") {
             font-size: 3.5em;
         }
-
-        @include breakpoint("l") {
-        }
     }
 
     &--medium {
-        text-transform: uppercase;
-        font-family: $specialFont;
         font-size: 1.25em;
         margin: 1em auto;
         margin-top: 0;
@@ -35,8 +31,6 @@
     }
 
     &--small {
-        text-transform: uppercase;
-        font-family: $specialFont;
         font-size: 1em;
 
         @include breakpoint("l") {

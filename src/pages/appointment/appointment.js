@@ -5,7 +5,7 @@ const Appointment = () => {
   return (
     <section className="appointment" id="appointment-comp">
       <div className="appointment__header-wrapper">
-        <h2 className="appointment__header header--medium">Termin vereinbaren</h2>
+        <h2 className="appointment__header header header--medium">Termin vereinbaren</h2>
       </div>
       <div className="appointment-wrapper">
         <div className="appointment__sect">

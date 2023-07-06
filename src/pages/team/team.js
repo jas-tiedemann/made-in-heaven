@@ -52,7 +52,7 @@ const Team = () => {
 
     return (
         <section className="team" id="team-comp">
-            <h2 className="header--medium team__header">Unser Team</h2>
+            <h2 className="team__header header header--medium">Unser Team</h2>
             <div className="team-wrapper">
                 {teamInfo.map(x => {
                     return (

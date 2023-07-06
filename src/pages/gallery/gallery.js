@@ -36,7 +36,7 @@ const Gallery = () => {
     return (
         <section className="gallery" id="gallery-comp">
             <div className="gallery__header-wrapper">
-                <h3 className="header--medium">Galerie</h3>
+                <h3 className="header header--medium">Galerie</h3>
             </div>
             <ImageGallery className="gallery__slider" items={images} />
         </section>
