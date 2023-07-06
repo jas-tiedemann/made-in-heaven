@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/made-in-heaven/static/css/main.76c47ae7.css",
+    "main.css": "/made-in-heaven/static/css/main.c6885468.css",
     "main.js": "/made-in-heaven/static/js/main.98336dc0.js",
     "static/media/bg-image-leaves.webp": "/made-in-heaven/static/media/bg-image-leaves.7bd0dbdac52bd8580636.webp",
     "static/media/gallery-image04.webp": "/made-in-heaven/static/media/gallery-image04.dd91cbb33fcb78e5914c.webp",
@@ -47,11 +47,11 @@
     "static/media/arrow-up-scroll.svg": "/made-in-heaven/static/media/arrow-up-scroll.c650e30afe609c4c871a4d5327327c24.svg",
     "static/media/arrow-down.svg": "/made-in-heaven/static/media/arrow-down.a0d7c76b47bf772d4197d414ada8973f.svg",
     "static/media/arrow-up.svg": "/made-in-heaven/static/media/arrow-up.bf169074e2c1dab27b9acb46f441ff2b.svg",
-    "main.76c47ae7.css.map": "/made-in-heaven/static/css/main.76c47ae7.css.map",
+    "main.c6885468.css.map": "/made-in-heaven/static/css/main.c6885468.css.map",
     "main.98336dc0.js.map": "/made-in-heaven/static/js/main.98336dc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.76c47ae7.css",
+    "static/css/main.c6885468.css",
     "static/js/main.98336dc0.js"
   ]
 }
