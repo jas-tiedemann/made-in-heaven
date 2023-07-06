@@ -3,9 +3,6 @@
 //autoprefixer
 @import "sass-autoprefixer/scss/prefixes";
 
-// font
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto:wght@300&display=swap");
-
 // configuration
 @import "./partials/config.scss";
 @import "./partials/utilities.scss";
