@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/made-in-heaven/static/css/main.d042e8d3.css",
+    "main.css": "/made-in-heaven/static/css/main.de3e3471.css",
     "main.js": "/made-in-heaven/static/js/main.c613cefd.js",
     "static/media/bg-image-leaves.webp": "/made-in-heaven/static/media/bg-image-leaves.7bd0dbdac52bd8580636.webp",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/made-in-heaven/static/media/PlayfairDisplay-VariableFont_wght.3f7c141215e6d22d0f1e.ttf",
@@ -48,11 +48,11 @@
     "static/media/arrow-up-scroll.svg": "/made-in-heaven/static/media/arrow-up-scroll.c650e30afe609c4c871a4d5327327c24.svg",
     "static/media/arrow-down.svg": "/made-in-heaven/static/media/arrow-down.a0d7c76b47bf772d4197d414ada8973f.svg",
     "static/media/arrow-up.svg": "/made-in-heaven/static/media/arrow-up.bf169074e2c1dab27b9acb46f441ff2b.svg",
-    "main.d042e8d3.css.map": "/made-in-heaven/static/css/main.d042e8d3.css.map",
+    "main.de3e3471.css.map": "/made-in-heaven/static/css/main.de3e3471.css.map",
     "main.c613cefd.js.map": "/made-in-heaven/static/js/main.c613cefd.js.map"
   },
   "entrypoints": [
-    "static/css/main.d042e8d3.css",
+    "static/css/main.de3e3471.css",
     "static/js/main.c613cefd.js"
   ]
 }
