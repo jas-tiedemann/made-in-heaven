@@ -3,7 +3,7 @@
     background: url("../../assets/images/bg-image-leaves.webp");
     background-size: cover;
     background-attachment: fixed;
-    
+    -webkit-background-attachment: scroll;    
 
     &__header {
         color: $light;
