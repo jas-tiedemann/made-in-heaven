@@ -10,6 +10,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+    @supports (-webkit-touch-callout: none) {
+        background-attachment: scroll;
+    }
 
     &__header-wrapper {
         background-color: rgba($color: $dark, $alpha: 0.6);
