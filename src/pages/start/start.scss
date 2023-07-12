@@ -11,14 +11,10 @@
     color: $light;
     padding: 2em;
     min-height: 100vh;
-    @media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) {
-
-    .safari_only {
+    
+    @supports (-webkit-touch-callout: none) {
         background-attachment: scroll;
-
     }
-}}
 
     @include breakpoint("s") {
         min-height: 70vh;
