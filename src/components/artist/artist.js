@@ -35,7 +35,7 @@ const Artist = (props) => {
 
   const extendedComp = (
     <div className="artist-wrapper_extended">
-      <button className="artist__button rounded-cor" onClick={displayCollapsed}>
+      <button className="artist__button rounded-cor" type="button" onClick={displayCollapsed}>
         <img className="icon--large" src={close} alt="close-button"></img>
       </button>
       <div className="artist__info-wrapper">
