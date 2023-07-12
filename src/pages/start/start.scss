@@ -1,3 +1,12 @@
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+    .start{ 
+        background-attachment: scroll;
+
+    }
+}}
+
 .start {
     display: flex;
     flex-direction: column;
@@ -16,10 +25,6 @@
 
     @include breakpoint("m") {
         min-height: calc(100vh - 170px);
-    }
-
-    &_:not(:root:root), .selector { 
-        background-attachment: scroll;
     }
 
     &__welcome {
