@@ -3,7 +3,6 @@
     flex-direction: column;
     background: url("../../assets/images/bg-image-leaves.webp");
     background-attachment: fixed;
-    -webkit-background-attachment: scroll;
     background-position: center;
     justify-content: center;
     background-size: cover;
@@ -17,6 +16,10 @@
 
     @include breakpoint("m") {
         min-height: calc(100vh - 170px);
+    }
+
+    &_:not(:root:root), .selector { 
+        background-attachment: scroll;
     }
 
     &__welcome {
