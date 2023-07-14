@@ -2,6 +2,11 @@
   "short_name": "Made-In-Heaven",
   "name": "Made-In-Heaven Website",
   "start_url": ".",
+  "icons": [
+    {
+      "src": "favicon.ico"
+    }
+  ],
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
