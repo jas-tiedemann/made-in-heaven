@@ -76,6 +76,7 @@
         height: fit-content;
         text-align: center;
         margin: auto;
+        cursor:pointer;
         @include breakpoint("s") {
             margin: 0;
         }

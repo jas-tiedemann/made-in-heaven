@@ -5,7 +5,6 @@
     justify-content: center;
     margin: 0 0.25em;
     scroll-snap-align: center;
-    
 
     @include breakpoint("s") {
         margin: 0 0.75em;
@@ -19,7 +18,6 @@
         margin: 0;
         height: 30em;
     }
-    
 
     &-wrapper_collapsed {
         width: 15em;
@@ -84,10 +82,15 @@
         z-index: 2;
     }
 
+    &-wrapper_extended--hidden {
+        display: none;
+    }
+
     &__button {
         margin: 1em;
         background-color: $light;
         border: none;
+        cursor:pointer;
         &:hover {
             opacity: 0.9;
         }
