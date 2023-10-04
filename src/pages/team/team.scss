@@ -24,7 +24,7 @@
 
         @include breakpoint("l") {
             display: grid;
-            grid-template-columns: repeat(3, 30%);
+            grid-template-columns: repeat(5, 20%);
             overflow: hidden;
             height: fit-content;
             justify-content: center;
