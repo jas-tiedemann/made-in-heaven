@@ -129,7 +129,7 @@ const Team = () => {
         {name: "Slim", imgPerson: imgProfileSlim, pronouns: "sie/ihnen", instaName: "Alisha/Slim", instaLink: "https://www.instagram.com/fit_for_a_piercing.pt/?igshid=Y2IzZGU1MTFhOQ%3D%3D", position: "Piercing", imgArray:
             [SlimImg00, SlimImg01, SlimImg02, SlimImg03, SlimImg04, SlimImg05, SlimImg06, SlimImg07]
         },
-        {name: "Shino", imgPerson: imgProfileShino, pronouns: "Sie/They/Er", instaName: "Shino", instaLink: "https://instagram.com/shinogami.ink?igshid=Y2IzZGU1MTFhOQ==", position: "Tattoo und Piercing", imgArray:
+        {name: "Shino", imgPerson: imgProfileShino, pronouns: "Sie/They/Er", instaName: "Shino", instaLink: "https://instagram.com/shinogami.ink?igshid=Y2IzZGU1MTFhOQ==", position: "Tattoo und Piercing, Azubi", imgArray:
             [ShinoImg00, ShinoImg01, ShinoImg02, ShinoImg03, ShinoImg04, ShinoImg05, ShinoImg06]
         }
     ];
