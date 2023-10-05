@@ -11,15 +11,7 @@ import imgProfileShino from "../../assets/images/artist-images/Shino/profile.jpe
 import imgProfileSlim from "../../assets/images/artist-images/Slim/profile.webp";
 import imgProfileToni from "../../assets/images/artist-images/Toni/profile.webp";
 
-import AngiImg00 from "../../assets/images/artist-images/Ani/00.jpg";
-import AngiImg01 from "../../assets/images/artist-images/Ani/01.jpg";
-import AngiImg02 from "../../assets/images/artist-images/Ani/02.jpg";
-import AngiImg03 from "../../assets/images/artist-images/Ani/03.jpg";
-import AngiImg04 from "../../assets/images/artist-images/Ani/04.jpg";
-import AngiImg05 from "../../assets/images/artist-images/Ani/05.jpg";
-import AngiImg06 from "../../assets/images/artist-images/Ani/06.jpg";
-import AngiImg07 from "../../assets/images/artist-images/Ani/07.jpg";
-import AngiImg08 from "../../assets/images/artist-images/Ani/08.jpg";
+import AngiImg00 from "../../assets/images/artist-images/Angi/00.webp";
 
 import AniImg00 from "../../assets/images/artist-images/Ani/00.jpg";
 import AniImg01 from "../../assets/images/artist-images/Ani/01.jpg";
@@ -111,7 +103,7 @@ const Team = () => {
 
     const teamInfo = [
         {name: "Angi", imgPerson: imgProfileAngi, pronouns: "sie/ihr", instaName: "Angii", instaLink: "https://www.instagram.com/milu_tattoo_/?igshid=Y2IzZGU1MTFhOQ%3D%3D", position: "Tattoo, Azubi und Shopmanagerin", imgArray:
-            [AngiImg00, AngiImg01, AngiImg02, AngiImg03, AngiImg04, AngiImg05, AngiImg06, AngiImg07, AngiImg08]
+            [AngiImg00, AngiImg00, AngiImg00, AngiImg00, AngiImg00, AngiImg00, AngiImg00, AngiImg00, AngiImg00]
         },
         {name: "Ani", imgPerson: imgProfileAni, pronouns: "sie/ihr", instaName: "Ani Levottomuus", instaLink: "https://www.instagram.com/delightfulsleep/?igshid=Y2IzZGU1MTFhOQ%3D%3D", position: "Tattoo", imgArray:
             [AniImg00, AniImg01, AniImg02, AniImg03, AniImg04, AniImg05, AniImg06, AniImg07, AniImg08]
@@ -137,7 +129,7 @@ const Team = () => {
         {name: "Slim", imgPerson: imgProfileSlim, pronouns: "sie/ihnen", instaName: "Alisha/Slim", instaLink: "https://www.instagram.com/fit_for_a_piercing.pt/?igshid=Y2IzZGU1MTFhOQ%3D%3D", position: "Piercing", imgArray:
             [SlimImg00, SlimImg01, SlimImg02, SlimImg03, SlimImg04, SlimImg05, SlimImg06, SlimImg07]
         },
-        {name: "Shino", imgPerson: imgProfileShino, pronouns: "sie/ihnen", instaName: "Alisha/Slim", instaLink: "https://www.instagram.com/fit_for_a_piercing.pt/?igshid=Y2IzZGU1MTFhOQ%3D%3D", position: "Piercing", imgArray:
+        {name: "Shino", imgPerson: imgProfileShino, pronouns: "Sie/They/Er", instaName: "Shino", instaLink: "https://instagram.com/shinogami.ink?igshid=Y2IzZGU1MTFhOQ==", position: "Tattoo und Piercing", imgArray:
             [ShinoImg00, ShinoImg01, ShinoImg02, ShinoImg03, ShinoImg04, ShinoImg05, ShinoImg06]
         }
     ];
