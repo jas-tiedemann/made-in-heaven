@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/made-in-heaven/static/css/main.5d5a8668.css",
-    "main.js": "/made-in-heaven/static/js/main.2711963d.js",
+    "main.js": "/made-in-heaven/static/js/main.1685e8b7.js",
     "static/media/07.jpg": "/made-in-heaven/static/media/07.8d243ed17f5f9d42abb4.jpg",
     "static/media/00.JPG": "/made-in-heaven/static/media/00.7deb346b3c5015e24382.JPG",
     "static/media/09.jpg": "/made-in-heaven/static/media/09.42c9189190ae94aea4cc.jpg",
@@ -31,6 +31,7 @@
     "static/media/05.jpeg": "/made-in-heaven/static/media/05.f7a3b5910f0ff36828c5.jpeg",
     "static/media/00.jpeg": "/made-in-heaven/static/media/00.ee6fff6fbd8a945c68bc.jpeg",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/made-in-heaven/static/media/PlayfairDisplay-VariableFont_wght.3f7c141215e6d22d0f1e.ttf",
+    "static/media/00.webp": "/made-in-heaven/static/media/00.717cc76a1b45fe4780d1.webp",
     "static/media/profile.jpeg": "/made-in-heaven/static/media/profile.84aeb2d4e5eec0a342ba.jpeg",
     "static/media/gallery-image04.webp": "/made-in-heaven/static/media/gallery-image04.dd91cbb33fcb78e5914c.webp",
     "static/media/appointment-image00.webp": "/made-in-heaven/static/media/appointment-image00.0a1aa6f0684ff06322f0.webp",
@@ -62,10 +63,10 @@
     "static/media/arrow-down.svg": "/made-in-heaven/static/media/arrow-down.a0d7c76b47bf772d4197d414ada8973f.svg",
     "static/media/arrow-up.svg": "/made-in-heaven/static/media/arrow-up.bf169074e2c1dab27b9acb46f441ff2b.svg",
     "main.5d5a8668.css.map": "/made-in-heaven/static/css/main.5d5a8668.css.map",
-    "main.2711963d.js.map": "/made-in-heaven/static/js/main.2711963d.js.map"
+    "main.1685e8b7.js.map": "/made-in-heaven/static/js/main.1685e8b7.js.map"
   },
   "entrypoints": [
     "static/css/main.5d5a8668.css",
-    "static/js/main.2711963d.js"
+    "static/js/main.1685e8b7.js"
   ]
 }
