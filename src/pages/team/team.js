@@ -13,33 +13,33 @@ import imgProfileToni from "../../assets/images/artist-images/Toni/profile.webp"
 
 import AngiImg00 from "../../assets/images/artist-images/Angi/00.webp";
 
-import AniImg00 from "../../assets/images/artist-images/Ani/00.jpg";
-import AniImg01 from "../../assets/images/artist-images/Ani/01.jpg";
-import AniImg02 from "../../assets/images/artist-images/Ani/02.jpg";
-import AniImg03 from "../../assets/images/artist-images/Ani/03.jpg";
-import AniImg04 from "../../assets/images/artist-images/Ani/04.jpg";
-import AniImg05 from "../../assets/images/artist-images/Ani/05.jpg";
-import AniImg06 from "../../assets/images/artist-images/Ani/06.jpg";
-import AniImg07 from "../../assets/images/artist-images/Ani/07.jpg";
-import AniImg08 from "../../assets/images/artist-images/Ani/08.jpg";
+import AniImg00 from "../../assets/images/artist-images/Ani/00.webp";
+import AniImg01 from "../../assets/images/artist-images/Ani/01.webp";
+import AniImg02 from "../../assets/images/artist-images/Ani/02.webp";
+import AniImg03 from "../../assets/images/artist-images/Ani/03.webp";
+import AniImg04 from "../../assets/images/artist-images/Ani/04.webp";
+import AniImg05 from "../../assets/images/artist-images/Ani/05.webp";
+import AniImg06 from "../../assets/images/artist-images/Ani/06.webp";
+import AniImg07 from "../../assets/images/artist-images/Ani/07.webp";
+import AniImg08 from "../../assets/images/artist-images/Ani/08.webp";
 
-import EliseImg00 from "../../assets/images/artist-images/Elise/00.JPG";
-import EliseImg01 from "../../assets/images/artist-images/Elise/01.JPG";
-import EliseImg02 from "../../assets/images/artist-images/Elise/02.JPG";
-import EliseImg03 from "../../assets/images/artist-images/Elise/03.JPG";
-import EliseImg04 from "../../assets/images/artist-images/Elise/04.JPG";
-import EliseImg05 from "../../assets/images/artist-images/Elise/05.JPG";
-import EliseImg06 from "../../assets/images/artist-images/Elise/06.JPG";
-import EliseImg07 from "../../assets/images/artist-images/Elise/07.JPG";
-import EliseImg08 from "../../assets/images/artist-images/Elise/08.JPG";
+import EliseImg00 from "../../assets/images/artist-images/Elise/00.webp";
+import EliseImg01 from "../../assets/images/artist-images/Elise/01.webp";
+import EliseImg02 from "../../assets/images/artist-images/Elise/02.webp";
+import EliseImg03 from "../../assets/images/artist-images/Elise/03.webp";
+import EliseImg04 from "../../assets/images/artist-images/Elise/04.webp";
+import EliseImg05 from "../../assets/images/artist-images/Elise/05.webp";
+import EliseImg06 from "../../assets/images/artist-images/Elise/06.webp";
+import EliseImg07 from "../../assets/images/artist-images/Elise/07.webp";
+import EliseImg08 from "../../assets/images/artist-images/Elise/08.webp";
 
-import ElliotImg00 from "../../assets/images/artist-images/Elliot/00.jpg";
-import ElliotImg01 from "../../assets/images/artist-images/Elliot/01.jpg";
-import ElliotImg02 from "../../assets/images/artist-images/Elliot/02.jpg";
-import ElliotImg03 from "../../assets/images/artist-images/Elliot/03.jpg";
-import ElliotImg04 from "../../assets/images/artist-images/Elliot/04.jpg";
-import ElliotImg05 from "../../assets/images/artist-images/Elliot/05.jpg";
-import ElliotImg06 from "../../assets/images/artist-images/Elliot/06.jpg";
+import ElliotImg00 from "../../assets/images/artist-images/Elliot/00.webp";
+import ElliotImg01 from "../../assets/images/artist-images/Elliot/01.webp";
+import ElliotImg02 from "../../assets/images/artist-images/Elliot/02.webp";
+import ElliotImg03 from "../../assets/images/artist-images/Elliot/03.webp";
+import ElliotImg04 from "../../assets/images/artist-images/Elliot/04.webp";
+import ElliotImg05 from "../../assets/images/artist-images/Elliot/05.webp";
+import ElliotImg06 from "../../assets/images/artist-images/Elliot/06.webp";
 import ElliotImg07 from "../../assets/images/artist-images/Elliot/07.jpg";
 import ElliotImg08 from "../../assets/images/artist-images/Elliot/08.jpg";
 
