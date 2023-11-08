@@ -49,7 +49,6 @@ const Footer = () => {
             <li>Dielingerstraße 42a</li>
             <li>49074 Osnabrück</li>
             <li>Einzelunternehmer</li>
-            <li>Steuernummer: 66/134/01300</li>
             <li><a className="footer__anchor" href="mailto:madeinheaven.pt@outlook.de">madeinheaven.pt@outlook.de</a></li>
           </ul>
         </div>
