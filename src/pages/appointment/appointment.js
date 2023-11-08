@@ -11,7 +11,7 @@ const Appointment = () => {
         <div className="appointment__sect">
           <p className="appointment__text text">Wir haben dein Interesse geweckt? Dann vereinbare doch hier ganz einfach einen Termin über unser Kalendersystem:</p>
           <div className="appointment__button-wrapper">
-            <Button link="#empty" text="Zum Kalendersystem" />
+            <Button link="https://kko.kisscalservice.de/?dbstudio=ks_madeinheaven" text="Zum Kalendersystem" />
           </div>
         </div>
         <div className="appointment__sect">
