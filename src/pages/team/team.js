@@ -81,7 +81,7 @@ import ShinoImg02 from "../../assets/images/artist-images/Shino/02.webp";
 import ShinoImg03 from "../../assets/images/artist-images/Shino/03.webp";
 import ShinoImg04 from "../../assets/images/artist-images/Shino/04.webp";
 import ShinoImg05 from "../../assets/images/artist-images/Shino/05.jpeg";
-import ShinoImg06 from "../../assets/images/artist-images/Shino/06.webp";
+import ShinoImg06 from "../../assets/images/artist-images/Shino/06.jpg";
 
 import SlimImg00 from "../../assets/images/artist-images/Slim/00.jpg";
 import SlimImg01 from "../../assets/images/artist-images/Slim/01.jpg";
