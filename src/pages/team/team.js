@@ -9,7 +9,7 @@ import imgProfileLydia from "../../assets/images/artist-images/Lydia/profile.web
 import imgProfileMareike from "../../assets/images/artist-images/Mareike/profile.webp";
 import imgProfileShino from "../../assets/images/artist-images/Shino/profile.jpeg";
 import imgProfileSlim from "../../assets/images/artist-images/Slim/profile.webp";
-import imgProfileToni from "../../assets/images/artist-images/Toni/profile.webp";
+import imgProfileMarie from "../../assets/images/artist-images/Marie/profile.jpeg";
 
 import AngiImg00 from "../../assets/images/artist-images/Angi/00.webp";
 
@@ -50,7 +50,7 @@ import KathiImg03 from "../../assets/images/artist-images/Kathi/03.webp";
 import KathiImg04 from "../../assets/images/artist-images/Kathi/04.webp";
 import KathiImg05 from "../../assets/images/artist-images/Kathi/05.webp";
 import KathiImg06 from "../../assets/images/artist-images/Kathi/06.webp";
-import KathiImg07 from "../../assets/images/artist-images/Kathi/07.jpg";
+import KathiImg07 from "../../assets/images/artist-images/Kathi/07.webp";
 import KathiImg08 from "../../assets/images/artist-images/Kathi/08.webp";
 import KathiImg09 from "../../assets/images/artist-images/Kathi/09.webp";
 import KathiImg10 from "../../assets/images/artist-images/Kathi/10.webp";
@@ -80,23 +80,38 @@ import ShinoImg01 from "../../assets/images/artist-images/Shino/01.webp";
 import ShinoImg02 from "../../assets/images/artist-images/Shino/02.webp";
 import ShinoImg03 from "../../assets/images/artist-images/Shino/03.webp";
 import ShinoImg04 from "../../assets/images/artist-images/Shino/04.webp";
-import ShinoImg05 from "../../assets/images/artist-images/Shino/05.jpeg";
-import ShinoImg06 from "../../assets/images/artist-images/Shino/06.jpg";
+import ShinoImg05 from "../../assets/images/artist-images/Shino/05.webp";
+import ShinoImg06 from "../../assets/images/artist-images/Shino/06.webp";
 
 import SlimImg00 from "../../assets/images/artist-images/Slim/00.jpg";
-import SlimImg01 from "../../assets/images/artist-images/Slim/01.jpg";
-import SlimImg02 from "../../assets/images/artist-images/Slim/02.jpg";
-import SlimImg03 from "../../assets/images/artist-images/Slim/03.jpg";
-import SlimImg04 from "../../assets/images/artist-images/Slim/04.jpg";
-import SlimImg05 from "../../assets/images/artist-images/Slim/05.jpg";
+import SlimImg01 from "../../assets/images/artist-images/Slim/01.webp";
+import SlimImg02 from "../../assets/images/artist-images/Slim/02.webp";
+import SlimImg03 from "../../assets/images/artist-images/Slim/03.webp";
+import SlimImg04 from "../../assets/images/artist-images/Slim/04.webp";
+import SlimImg05 from "../../assets/images/artist-images/Slim/05.webp";
 import SlimImg06 from "../../assets/images/artist-images/Slim/06.jpg";
 import SlimImg07 from "../../assets/images/artist-images/Slim/07.jpg";
 
-import ToniImg00 from "../../assets/images/artist-images/Toni/00.jpg";
-import ToniImg01 from "../../assets/images/artist-images/Toni/01.jpg";
-import ToniImg02 from "../../assets/images/artist-images/Toni/02.jpg";
-import ToniImg03 from "../../assets/images/artist-images/Toni/03.jpg";
-import ToniImg04 from "../../assets/images/artist-images/Toni/04.jpg";
+import MarieImg00 from "../../assets/images/artist-images/Marie/00.jpeg";
+import MarieImg01 from "../../assets/images/artist-images/Marie/01.jpeg";
+import MarieImg02 from "../../assets/images/artist-images/Marie/02.jpeg";
+import MarieImg03 from "../../assets/images/artist-images/Marie/03.jpeg";
+import MarieImg04 from "../../assets/images/artist-images/Marie/04.jpeg";
+import MarieImg05 from "../../assets/images/artist-images/Marie/05.jpeg";
+import MarieImg06 from "../../assets/images/artist-images/Marie/06.jpeg";
+import MarieImg07 from "../../assets/images/artist-images/Marie/07.jpeg";
+import MarieImg08 from "../../assets/images/artist-images/Marie/08.jpeg";
+import MarieImg09 from "../../assets/images/artist-images/Marie/09.jpeg";
+import MarieImg10 from "../../assets/images/artist-images/Marie/10.jpeg";
+import MarieImg11 from "../../assets/images/artist-images/Marie/11.jpeg";
+import MarieImg12 from "../../assets/images/artist-images/Marie/12.jpeg";
+import MarieImg13 from "../../assets/images/artist-images/Marie/13.jpeg";
+import MarieImg14 from "../../assets/images/artist-images/Marie/14.jpeg";
+import MarieImg15 from "../../assets/images/artist-images/Marie/15.jpeg";
+import MarieImg16 from "../../assets/images/artist-images/Marie/16.jpeg";
+import MarieImg17 from "../../assets/images/artist-images/Marie/17.jpeg";
+import MarieImg18 from "../../assets/images/artist-images/Marie/18.jpeg";
+import MarieImg19 from "../../assets/images/artist-images/Marie/19.jpeg";
 
 
 const Team = () => {
@@ -117,8 +132,8 @@ const Team = () => {
         {name: "Kathi", imgPerson: imgProfileKathi, pronouns: "sie/ihr", instaName: "Onkel Kathi", instaLink: "https://www.instagram.com/onka_tattoo/?igshid=Y2IzZGU1MTFhOQ%3D%3D", position: "Tattoo und Piercing", imgArray:
             [KathiImg00, KathiImg01, KathiImg02, KathiImg03, KathiImg04, KathiImg05, KathiImg06, KathiImg07, KathiImg08, KathiImg09, KathiImg10]
         },
-        {name: "Toni", imgPerson: imgProfileToni, pronouns: "sie/ihr", instaName: "tattos by toni", instaLink: "https://www.instagram.com/cosmaids.tintcan/?igshid=Y2IzZGU1MTFhOQ%3D%3D", position: "Tattoo", imgArray:
-            [ToniImg00, ToniImg01, ToniImg02, ToniImg03, ToniImg04]
+        {name: "Marie", imgPerson: imgProfileMarie, pronouns: "sie/ihr", instaName: "_bloodletter_", instaLink: "https://www.instagram.com/_bloodletter_/?hl=am-et", position: "Tattoo", imgArray:
+            [MarieImg00, MarieImg01, MarieImg02, MarieImg03, MarieImg04, MarieImg05, MarieImg06, MarieImg07, MarieImg08, MarieImg09, MarieImg10, MarieImg11, MarieImg12, MarieImg13, MarieImg14, MarieImg15, MarieImg16, MarieImg17, MarieImg18, MarieImg19]
         },
         {name: "Lydia", imgPerson: imgProfileLydia, pronouns: "sie/ihr", instaName: "TattooStudio9", instaLink: "https://www.instagram.com/tattoostudio_9_/?igshid=Y2IzZGU1MTFhOQ%3D%3D", position: "Tattoo", imgArray:
             [LydiaImg00, LydiaImg01, LydiaImg02, LydiaImg03, LydiaImg04, LydiaImg05, LydiaImg06, LydiaImg07, LydiaImg08]
