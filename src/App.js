@@ -7,6 +7,7 @@ import Footer from "./pages/footer/footer";
 import About from "./pages/about/about";
 import Team from "./pages/team/team";
 import Gallery from "./pages/gallery/gallery";
+import Prices from "./pages/prices/prices";
 import Service from "./pages/service/service";
 import Appointment from "./pages/appointment/appointment";
 import { useState, useEffect } from "react";
@@ -52,6 +53,7 @@ function App() {
         <About />
         <Team />
         <Gallery />
+        <Prices />
         <Service mobileView={mobileView} />
         <Appointment />
         <Opening />

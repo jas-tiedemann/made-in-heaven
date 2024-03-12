@@ -1,0 +1,33 @@
+.prices {
+    color: white;
+    margin-top: 4rem;
+
+    &-header {
+        width: 8rem;
+
+        &--wrapper {
+            margin: auto;
+            text-align: center;
+        }
+}
+    
+    &-image {
+        margin: 1rem;
+
+        width: 85%;
+        height: auto;
+
+        @include breakpoint("s") {
+            width: 70%;
+        }
+
+        @include breakpoint("m") {
+            width: auto;
+            height: 35rem;
+        }
+
+        &--wrapper {
+            text-align: center;
+        }
+    }
+}
