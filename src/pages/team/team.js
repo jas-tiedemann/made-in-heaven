@@ -111,7 +111,6 @@ import MarieImg15 from "../../assets/images/artist-images/Marie/15.jpeg";
 import MarieImg16 from "../../assets/images/artist-images/Marie/16.jpeg";
 import MarieImg17 from "../../assets/images/artist-images/Marie/17.jpeg";
 import MarieImg18 from "../../assets/images/artist-images/Marie/18.jpeg";
-import MarieImg19 from "../../assets/images/artist-images/Marie/19.jpeg";
 
 
 const Team = () => {
@@ -133,7 +132,7 @@ const Team = () => {
             [KathiImg00, KathiImg01, KathiImg02, KathiImg03, KathiImg04, KathiImg05, KathiImg06, KathiImg07, KathiImg08, KathiImg09, KathiImg10]
         },
         {name: "Marie", imgPerson: imgProfileMarie, pronouns: "sie/ihr", instaName: "_bloodletter_", instaLink: "https://www.instagram.com/_bloodletter_/?hl=am-et", position: "Tattoo", imgArray:
-            [MarieImg00, MarieImg01, MarieImg02, MarieImg03, MarieImg04, MarieImg05, MarieImg06, MarieImg07, MarieImg08, MarieImg09, MarieImg10, MarieImg11, MarieImg12, MarieImg13, MarieImg14, MarieImg15, MarieImg16, MarieImg17, MarieImg18, MarieImg19]
+            [MarieImg00, MarieImg01, MarieImg02, MarieImg03, MarieImg04, MarieImg05, MarieImg06, MarieImg07, MarieImg08, MarieImg09, MarieImg10, MarieImg11, MarieImg12, MarieImg13, MarieImg14, MarieImg15, MarieImg16, MarieImg17, MarieImg18]
         },
         {name: "Lydia", imgPerson: imgProfileLydia, pronouns: "sie/ihr", instaName: "TattooStudio9", instaLink: "https://www.instagram.com/tattoostudio_9_/?igshid=Y2IzZGU1MTFhOQ%3D%3D", position: "Tattoo", imgArray:
             [LydiaImg00, LydiaImg01, LydiaImg02, LydiaImg03, LydiaImg04, LydiaImg05, LydiaImg06, LydiaImg07, LydiaImg08]
