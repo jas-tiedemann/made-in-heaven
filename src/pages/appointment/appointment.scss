@@ -75,7 +75,7 @@
     }
 
     &__iframe {
-        width: 80dvw;
+        width: 85dvw;
         height: 35rem;
         margin: auto;
 
@@ -83,8 +83,21 @@
             width: 60dvw;
         }
 
+        @include breakpoint("m") {
+            width: 40dvw;
+        }
+        
+        @include breakpoint("l") {
+            width: 40dvw;
+        }
+        
+        @include breakpoint("xl") {
+            width: 30dvw;
+        }
+
         &-wrapper {
             text-align: center;
+            margin-bottom: 3rem;
         }
     }
 }

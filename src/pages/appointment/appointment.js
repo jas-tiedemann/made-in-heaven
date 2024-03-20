@@ -21,7 +21,7 @@ const Appointment = () => {
             </div>
           </div>
           <div className="appointment__iframe-wrapper">
-            <iframe className="appointment__iframe" src="https://kko.kisscalservice.de/?dbstudio=ks_madeinheaven" ></iframe>
+            <iframe className="appointment__iframe" src="https://kko.kisscalservice.de/?dbstudio=ks_madeinheaven" title="Calendar Service"></iframe>
           </div>
         </div>
       </div>
