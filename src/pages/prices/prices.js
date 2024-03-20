@@ -9,8 +9,8 @@ const Prices = () => {
             <h1 className="prices-header header header--medium">Preise</h1>
         </div>
         <div className="prices-image--wrapper">
-            <img src={pricingImg00} className="prices-image prices-image--small"></img>
-            <img src={pricingImg01} className="prices-image prices-image--big"></img>
+            <img src={pricingImg00} alt="pricing-image00" className="prices-image prices-image--small"></img>
+            <img src={pricingImg01} alt="pricing-image01" className="prices-image prices-image--big"></img>
         </div>
     </div>
   );
