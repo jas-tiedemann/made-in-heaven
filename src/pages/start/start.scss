@@ -10,7 +10,7 @@
     background-size: cover;
     color: $light;
     padding: 2em;
-    min-height: 100vh;
+    min-height: 100dvh;
     
     @supports (-webkit-touch-callout: none) {
         background-attachment: scroll;
