@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import close from "../../assets/vectors/close.svg";
 
 const Artist = (props) => {
-
   const [extended, setExtended] = useState(false);
 
   const displayExtended = () => {
     setExtended(true);
+    document.body.style.overflow = "hidden";
   }
 
   const displayCollapsed = () => {
     setExtended(false);
+    document.body.style.overflow = "auto";
   }
 
   return (
@@ -39,13 +40,15 @@ const Artist = (props) => {
             <a className="artist__text artist__text_extended"  name={props.instaName} href={props.instaLink} target="_blank" rel="noreferrer">{"Instagram: "+ props.instaName}</a>
           </div>
         </div>
-        <div className="artist__image-wrapper">
-          {props.imgArray.map(x => {
-            return (
-              <img src={x} alt="" className="artist__image"></img>
-            );
-          })}
-        </div>
+        {extended && 
+          <div className="artist__image-wrapper">
+            {props.imgArray.map((x, index) => {
+              return (
+                <img key={index} src={x} alt="" className="artist__image"></img>
+              );
+            })}
+          </div>
+        }
       </div>
     </article>
   );
