@@ -56,7 +56,6 @@ function App() {
         <Prices />
         <Service mobileView={mobileView} />
         <Appointment />
-        <Opening />
         <ScrollButton />
       </main>
 

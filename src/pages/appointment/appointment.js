@@ -13,7 +13,7 @@ const Appointment = () => {
             <div className="appointment__sect">
               <p className="appointment__text text">Wir haben dein Interesse geweckt? Dann vereinbare doch hier ganz einfach einen Termin über unser Kalendersystem:</p>
               <div className="appointment__button-wrapper">
-                <Button link="https://kko.kisscalservice.de/?dbstudio=ks_madeinheaven" text="Zum Kalendersystem" />
+                <Button link="https://cp.kisscalservice.de/booking?studioDB=ks_madeinheaven&configId=1" text="Zum Kalendersystem" />
               </div>
             </div>
             <div className="appointment__sect">
@@ -21,7 +21,7 @@ const Appointment = () => {
             </div>
           </div>
           <div className="appointment__iframe-wrapper">
-            <iframe className="appointment__iframe" src="https://kko.kisscalservice.de/?dbstudio=ks_madeinheaven" title="Calendar Service"></iframe>
+            <iframe className="appointment__iframe" src="https://cp.kisscalservice.de/booking?studioDB=ks_madeinheaven&configId=1" title="Calendar Service"></iframe>
           </div>
         </div>
       </div>
