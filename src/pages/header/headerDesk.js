@@ -32,9 +32,6 @@ const HeaderDesk = () => {
               <a className="headerDesk__link" href="#appointment-comp">Termin buchen</a>
             </li>
             <li className="headerDesk__item">
-              <a className="headerDesk__link" href="#opening-comp">Öffnungszeiten</a>
-            </li>
-            <li className="headerDesk__item">
               <a className="headerDesk__link" href="https://maps.google.com/?cid=17786562329460158763" rel="noreferrer" target="_blank"><img src={location} alt="location" className="icon--medium"></img></a>
             </li>
           </ul>

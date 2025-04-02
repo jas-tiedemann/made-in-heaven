@@ -57,9 +57,6 @@ const HeaderMob = () => {
               <a className="headerMob__link" href="#appointment-comp" onClick={handleCollapse}>Termin buchen</a>
             </li>
             <li className="headerMob__item">
-              <a className="headerMob__link" href="#opening-comp" onClick={handleCollapse}>Öffnungszeiten</a>
-            </li>
-            <li className="headerMob__item">
               <a className="headerMob__link" href="https://maps.google.com/?cid=17786562329460158763" rel="noreferrer" target="_blank" onClick={handleCollapse}><img src={location} alt="location" className="icon--medium"></img></a>
             </li>
           </ul>
